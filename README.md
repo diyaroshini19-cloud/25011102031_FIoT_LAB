@@ -30,7 +30,7 @@ FOUNDATIONS_OF_IOT/
 | Platform | Development Environment |
 |---|---|
 | 8051 Microcontroller | Keil µVision |
-| STM32 Microcontroller | STM32CubeIDE |
+| STM32 Microcontroller | STM32CubeMX |
 | Programming Language | Embedded C |
 | Hardware Interfacing | Sensors and peripherals |
 
