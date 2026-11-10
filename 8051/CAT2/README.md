@@ -37,9 +37,6 @@
 
 Develop a customized library function for delay functionality.
 
-## CIRCUIT DIAGRAM
-
-![AT89S52 Development Board](bhttps://github.com/diyaroshini19-cloud/25011102031_FIoT_LAB/blob/main/8051/CAT2/circuit2.png)
 
 ## CORE LOGIC / PSEUDOCODE / CODE BASE
 
