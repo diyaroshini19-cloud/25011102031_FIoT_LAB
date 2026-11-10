@@ -15,6 +15,11 @@ FOUNDATIONS_OF_IOT/
 ├── 8051/
 │   ├── CAT1/
 │   └── CAT2/
+│   ├── CAT3/
+│   └── CAT4/
+│   ├── CAT5/
+│   └── CAT6/
+│   ├── CAT7/
 │
 └── STM32/
     ├── CAT1/
