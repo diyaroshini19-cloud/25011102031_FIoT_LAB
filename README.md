@@ -10,7 +10,6 @@ This repository contains practical implementations using **8051 and STM32 microc
 FOUNDATIONS_OF_IOT/
 │
 ├── README.md
-├── .gitignore
 │
 ├── 8051/
 │   ├── CAT1/
