@@ -9,7 +9,8 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ET
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
+SUPPORT = Path(__file__).resolve().parent / "tools"
 TASKS = {
     "STM32/CAT8/TASK8B": ("cortex-m3", "STM32F103x6", "f1"),
     "STM32/CAT8/TASK8C": ("cortex-m3", "STM32F103x6", "f1"),
@@ -66,10 +67,10 @@ def build(task: str, cpu: str, define: str, family: str) -> None:
          f"-D{define}", str(startup), "-c", "-o", str(startup_object)])
     runtime_object = output / "stm32_gcc_runtime.o"
     run(["arm-none-eabi-gcc", f"-mcpu={cpu}", "-mthumb", "-ffreestanding", "-fno-builtin",
-         "-c", str(ROOT / "tools/stm32_gcc_runtime.c"), "-o", str(runtime_object)])
+         "-c", str(SUPPORT / "stm32_gcc_runtime.c"), "-o", str(runtime_object)])
 
     elf = output / f"{base.name}.elf"
-    linker = ROOT / ("tools/stm32_f103c6.ld" if family == "f1" else "tools/stm32f401re.ld")
+    linker = SUPPORT / ("stm32_f103c6.ld" if family == "f1" else "stm32f401re.ld")
     run(["arm-none-eabi-gcc", f"-mcpu={cpu}", "-mthumb", "-nostdlib",
          "-Wl,--gc-sections", f"-Wl,-Map={output / (base.name + '.map')}",
          f"-T{linker}", str(startup_object), *map(str, objects), str(runtime_object),

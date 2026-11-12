@@ -9,7 +9,7 @@
 - `8051/CAT7/TASK7C`: implemented 4×4 keypad scanning and 2/8/4/6 movement for a character on a 16×2 LCD. Reused the existing TASK7A/TASK7B LCD pin map, initialization, and 4-bit driver approach.
 - Added task-specific C source, Keil `.uvproj`, `STARTUP.A51`, `Objects/` and meaningful README files to both folders. The `.uvproj` settings are for AT89S52 at 11.0592 MHz, with HEX output directed to `Objects/`.
 - Compiled both C files with SDCC 4.6.0 and generated authentic Intel HEX outputs: `8051/CAT5/TASK5C/Objects/TASK5C.hex` and `8051/CAT7/TASK7C/Objects/TASK7C.hex`.
-- Ran `python3 evaluate_repository.py`: **28/28 tasks passed, 198/198 structural checks passed, 60/60 project XML/reference checks passed, overall PASS**. Full output is in `EVALUATION_REPORT.md`.
+- Ran `python3 PROJECT_DOCUMENTATION/Tools/evaluate_repository.py`: **28/28 tasks passed, 198/198 structural checks passed, 60/60 project XML/reference checks passed, overall PASS**. Full output is in `EVALUATION_REPORT.md`.
 - Updated `ENGINEERING_VALIDATION_REPORT.md` with the two new compiler results and remaining limits.
 
 ## Source references and hardware assumptions
@@ -42,3 +42,10 @@ Previous CAT10/CAT11/CAT14 mapping work, all existing 8051 and STM32 task implem
 5. For the remaining microcontroller tasks, follow the existing next steps in `ENGINEERING_VALIDATION_REPORT.md`; compile and test STM32 CAT10, CAT11, and CAT14 on the intended hardware.
 
 Implementation and validation details are recorded above. Repository cleanup and publication state are tracked in Git history and the accompanying final session report.
+
+## Repository root reorganization — 2026-11-12
+
+- Supporting reports, task mapping, reference projects/materials and tool scripts were organized under `PROJECT_DOCUMENTATION/`. The root README remains at the repository root; task folders were not moved.
+- The evaluator passed after the move: 28/28 tasks, 198/198 required files and 60/60 XML/source-reference checks.
+- The relocated GCC build script was verified in an isolated temporary workspace for CAT8B, CAT8C and CAT12A–12C. Existing repository compiler outputs were preserved.
+- Pending: independently compile CAT10/CAT11/CAT14 where suitable toolchains are available, perform physical board validation, and review local Wi-Fi/MQTT settings before hardware runs. No hardware test is claimed.

@@ -24,6 +24,12 @@ This repository contains the practical experiments performed as part of the **Fo
 │   ├── CAT13/
 │   └── CAT14/
 │
+├── PROJECT_DOCUMENTATION/
+│   ├── Reports/
+│   ├── Reference/
+│   ├── Tools/
+│   └── MASTER_TASK_MAPPING.md
+│
 └── README.md
 ```
 
@@ -73,4 +79,4 @@ The laboratory provides hands-on experience in developing embedded systems and c
 
 ## Evaluation and validation
 
-Run `python3 evaluate_repository.py` from the repository root to check the required task files and Keil project references. `EVALUATION_REPORT.md` records the latest structural results; `ENGINEERING_VALIDATION_REPORT.md` distinguishes compiler checks from hardware tests and documents known limitations.
+Run `python3 PROJECT_DOCUMENTATION/Tools/evaluate_repository.py` from the repository root to check the required task files and Keil project references. The `PROJECT_DOCUMENTATION/Reports/` folder contains structural and engineering validation reports, `PROJECT_DOCUMENTATION/Reference/` preserves original lab materials and project files, and `PROJECT_DOCUMENTATION/MASTER_TASK_MAPPING.md` records the corrected task mapping. To rebuild supported STM32 GPIO tasks, use `python3 PROJECT_DOCUMENTATION/Tools/build_stm32_gcc.py`.

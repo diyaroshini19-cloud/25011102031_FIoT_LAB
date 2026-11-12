@@ -1,7 +1,7 @@
 # CAT11 / TASK11B — Node-RED HTTP client
 
 ## Original project reused
-Implements original CAT10 Task 10E at the corrected path `STM32/CAT11/TASK11B`. It uses the same STM32F103C8 server project and `+IPD`/HTTP response firmware from `reference/EX3/uarttt/`, preserving a standalone task project copy. `Drivers/` links to that original project's matching STM32F1 HAL and CMSIS files.
+Implements original CAT10 Task 10E at the corrected path `STM32/CAT11/TASK11B`. It uses the same STM32F103C8 server project and `+IPD`/HTTP response firmware from `PROJECT_DOCUMENTATION/Reference/EX3/uarttt/`, preserving a standalone task project copy. `Drivers/` links to that original project's matching STM32F1 HAL and CMSIS files.
 
 ## Node-RED client procedure
 1. Start the STM32 HTTP server and connect ESP8266 and Node-RED host to the same Wi-Fi LAN.

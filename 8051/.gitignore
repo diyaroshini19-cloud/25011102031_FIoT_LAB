@@ -1,0 +1,20 @@
+# macOS Finder metadata and editor scratch files
+.DS_Store
+*~
+*.swp
+*.swo
+*.tmp
+*.uvoptx
+*.uvguix.*
+*.build_log.htm
+
+# SDCC intermediates; committed task HEX outputs are retained.
+**/*.asm
+**/*.ihx
+**/*.lk
+**/*.lst
+**/*.map
+**/*.mem
+**/*.rel
+**/*.rst
+**/*.sym

@@ -1,8 +1,4 @@
-# Preserve upstream/vendor formatting without mass-reformatting imported files.
-reference/** whitespace=-trailing-space
-STM32/**/Drivers/** whitespace=-trailing-space
-
-# These are generated reports/maps/listings, not hand-maintained source.
+**/Drivers/** whitespace=-trailing-space
 *.map whitespace=-trailing-space
 *.lst whitespace=-trailing-space
 *.asm whitespace=-trailing-space

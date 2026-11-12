@@ -298,5 +298,9 @@ Engineering configuration checks (separate from structural score):
   PASS STM32/CAT14/TASK14/MDK-ARM/mqttt.uvprojx source references: all explicit file paths exist
 Project XML/reference checks passed: 60/60
 Overall status: PASS
-Compilation and physical hardware results are reported in ENGINEERING_VALIDATION_REPORT.md.
+Compilation and physical hardware results are reported in PROJECT_DOCUMENTATION/Reports/ENGINEERING_VALIDATION_REPORT.md.
 CAT10, CAT11 and CAT14 are included in the corrected mapping and structural checks.
+
+## Root organization revalidation — 2026-11-12
+
+The evaluator was run from its relocated path, `python3 PROJECT_DOCUMENTATION/Tools/evaluate_repository.py --quiet`. Result: **28/28 tasks passed; 198/198 required file checks passed; 60/60 Keil project XML and source-reference checks passed; no suspicious or empty files; overall PASS.** The task directories remained at their original paths. CAT10/CAT11 `Drivers/` links resolve to the preserved original projects under `PROJECT_DOCUMENTATION/Reference/EX3/`.

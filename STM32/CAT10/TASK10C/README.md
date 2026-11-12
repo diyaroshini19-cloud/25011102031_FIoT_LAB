@@ -1,7 +1,7 @@
 # CAT10 / TASK10C — Wi-Fi station, debug and TCP server setup
 
 ## Original project reused
-Uses the STM32F103C8 CubeMX/Keil project and Wi-Fi command sequence from `reference/EX3/uarthttp/`. CAT10's documented server setup is added after association and IP/status reporting. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. The original reference project remains unchanged.
+Uses the STM32F103C8 CubeMX/Keil project and Wi-Fi command sequence from `PROJECT_DOCUMENTATION/Reference/EX3/uarthttp/`. CAT10's documented server setup is added after association and IP/status reporting. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. The original reference project remains unchanged.
 
 ## Firmware sequence
 The task checks `AT`, selects station mode (`AT+CWMODE=1`), enables DHCP, optionally joins the configured AP with `AT+CWJAP`, reports `AT+CIFSR`/`AT+CIPSTATUS`, enables multi-connection mode (`AT+CIPMUX=1`) and starts a TCP server on port 80 (`AT+CIPSERVER=1,80`). HTTP request parsing and response generation are in CAT11 tasks per the corrected mapping.

@@ -1,0 +1,13 @@
+*.map whitespace=-trailing-space
+*.lst whitespace=-trailing-space
+*.asm whitespace=-trailing-space
+*.mem whitespace=-trailing-space
+*.rst whitespace=-trailing-space
+*.sym whitespace=-trailing-space
+*.ihx whitespace=-trailing-space
+*.hex whitespace=-trailing-space
+*.lnp whitespace=-trailing-space
+*.dep whitespace=-trailing-space
+*.dbgconf whitespace=-trailing-space
+*.sct whitespace=-trailing-space
+*.0 whitespace=-trailing-space

@@ -1,0 +1,19 @@
+# macOS Finder metadata and editor scratch files
+.DS_Store
+*~
+*.swp
+*.swo
+*.tmp
+*.uvoptx
+*.uvguix.*
+*.build_log.htm
+
+# Keil disposable build intermediates.
+**/MDK-ARM/**/*.o
+**/MDK-ARM/**/*.d
+**/MDK-ARM/**/*.axf
+**/MDK-ARM/**/*.map
+**/MDK-ARM/**/*.lnp
+**/MDK-ARM/**/*.sct
+**/MDK-ARM/**/*.dep
+**/MDK-ARM/**/*.htm

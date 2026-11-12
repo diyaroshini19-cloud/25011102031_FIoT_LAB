@@ -10,7 +10,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
 TASKS_8051 = [
     "8051/CAT2/TASK2B", "8051/CAT3/TASK3A", "8051/CAT4/TASK4A",
     "8051/CAT5/TASK5A", "8051/CAT5/TASK5B/TASK5B.1",
@@ -170,7 +170,7 @@ def main() -> int:
     print(f"Project XML/reference checks passed: {sum(ok for _, ok, _ in checks)}/{len(checks)}")
     overall = structural_ok and all(ok for _, ok, _ in checks)
     print(f"Overall status: {'PASS' if overall else 'FAIL'}")
-    print("Compilation and physical hardware results are reported in ENGINEERING_VALIDATION_REPORT.md.")
+    print("Compilation and physical hardware results are reported in PROJECT_DOCUMENTATION/Reports/ENGINEERING_VALIDATION_REPORT.md.")
     print("CAT10, CAT11 and CAT14 are included in the corrected mapping and structural checks.")
     return 0 if overall else 1
 

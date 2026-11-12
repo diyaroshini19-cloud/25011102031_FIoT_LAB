@@ -1,7 +1,7 @@
 # CAT10 / TASK10B — ESP8266 AT command interface
 
 ## Original project reused
-Based on `reference/EX3/uartwifi/` (STM32F103C8 CubeMX/Keil configuration and UART receive-to-idle pattern). The task source adds the CAT10 command investigation sequence and retains an interactive terminal bridge. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. Original reference files are unchanged.
+Based on `PROJECT_DOCUMENTATION/Reference/EX3/uartwifi/` (STM32F103C8 CubeMX/Keil configuration and UART receive-to-idle pattern). The task source adds the CAT10 command investigation sequence and retains an interactive terminal bridge. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. Original reference files are unchanged.
 
 ## Commands and outputs
 At startup, USART1 sends `AT`, `AT+GMR`, `AT+CWMODE?`, `AT+CWLAP`, and `AT+CIFSR`; responses are shown on the USART2 debug terminal. After the initial sequence, type additional commands in the terminal.
