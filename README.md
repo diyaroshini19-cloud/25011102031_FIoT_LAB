@@ -70,3 +70,7 @@ The experiments demonstrate microcontroller peripheral programming, serial commu
 ## Purpose
 
 The laboratory provides hands-on experience in developing embedded systems and connecting microcontrollers with sensors, communication modules and IoT platforms. It progresses from basic peripheral interfacing to network-connected sensor applications.
+
+## Evaluation and validation
+
+Run `python3 evaluate_repository.py` from the repository root to check the required task files and Keil project references. `EVALUATION_REPORT.md` records the latest structural results; `ENGINEERING_VALIDATION_REPORT.md` distinguishes compiler checks from hardware tests and documents known limitations.
