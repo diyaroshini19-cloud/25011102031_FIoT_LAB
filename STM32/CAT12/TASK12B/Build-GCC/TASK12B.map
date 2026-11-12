@@ -1,0 +1,1003 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o (__aeabi_uldivmod)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Merging object attributes
+
+
+Discarded input sections
+
+ .text          0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .text.HAL_I2C_MspInit
+                0x00000000       0x90 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .text.HAL_I2C_MspDeInit
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Init
+                0x00000000      0x284 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_DeInit
+                0x00000000       0x5e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MspInit
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MspDeInit
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Flush_DR
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Transmit
+                0x00000000      0x1f4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Receive
+                0x00000000      0x450 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Transmit
+                0x00000000      0x224 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Receive
+                0x00000000      0x20c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Transmit_IT
+                0x00000000      0x13c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Receive_IT
+                0x00000000      0x14c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Transmit_IT
+                0x00000000       0xd8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Receive_IT
+                0x00000000       0xd8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Transmit_DMA
+                0x00000000      0x254 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Receive_DMA
+                0x00000000      0x254 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Transmit_DMA
+                0x00000000      0x1a0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Receive_DMA
+                0x00000000      0x1a0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Write
+                0x00000000      0x1ec /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Read
+                0x00000000      0x450 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Write_IT
+                0x00000000      0x154 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Read_IT
+                0x00000000      0x16c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Write_DMA
+                0x00000000      0x2b8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Mem_Read_DMA
+                0x00000000      0x318 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_IsDeviceReady
+                0x00000000      0x244 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Seq_Transmit_IT
+                0x00000000      0x180 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Seq_Transmit_DMA
+                0x00000000      0x2b8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Seq_Receive_IT
+                0x00000000      0x1ec /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Seq_Receive_DMA
+                0x00000000      0x360 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Seq_Transmit_IT
+                0x00000000       0xe0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Seq_Transmit_DMA
+                0x00000000      0x26c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Seq_Receive_IT
+                0x00000000       0xe0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Slave_Seq_Receive_DMA
+                0x00000000      0x26c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_EnableListen_IT
+                0x00000000       0x68 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_DisableListen_IT
+                0x00000000       0x6e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_Master_Abort_IT
+                0x00000000       0xa4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_EV_IRQHandler
+                0x00000000      0x2e2 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_ER_IRQHandler
+                0x00000000      0x14c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MasterTxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MasterRxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_AddrCallback
+                0x00000000       0x1a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_ListenCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MemTxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_MemRxCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_ErrorCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_AbortCpltCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_GetState
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_GetMode
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.HAL_I2C_GetError
+                0x00000000       0x16 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterTransmit_TXE
+                0x00000000      0x130 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterTransmit_BTF
+                0x00000000       0xe4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MemoryTransmit_TXE_BTF
+                0x00000000      0x12a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterReceive_RXNE
+                0x00000000      0x182 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterReceive_BTF
+                0x00000000      0x1d0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Master_SB
+                0x00000000      0x106 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Master_ADD10
+                0x00000000       0x52 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Master_ADDR
+                0x00000000      0x318 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_SlaveTransmit_TXE
+                0x00000000       0x74 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_SlaveTransmit_BTF
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_SlaveReceive_RXNE
+                0x00000000       0x76 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_SlaveReceive_BTF
+                0x00000000       0x3e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Slave_ADDR
+                0x00000000       0x92 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Slave_STOPF
+                0x00000000      0x254 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_Slave_AF
+                0x00000000       0xe8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_ITError
+                0x00000000      0x260 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterRequestWrite
+                0x00000000      0x104 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_MasterRequestRead
+                0x00000000      0x19c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_RequestMemoryWrite
+                0x00000000      0x12c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_RequestMemoryRead
+                0x00000000      0x1d0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_DMAXferCplt
+                0x00000000      0x1b8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_DMAError
+                0x00000000       0x7a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_DMAAbort
+                0x00000000      0x14c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnFlagUntilTimeout
+                0x00000000       0xf4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnMasterAddressFlagUntilTimeout
+                0x00000000      0x140 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnTXEFlagUntilTimeout
+                0x00000000       0x90 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnBTFFlagUntilTimeout
+                0x00000000       0x90 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnSTOPFlagUntilTimeout
+                0x00000000       0x88 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnSTOPRequestThroughIT
+                0x00000000       0x64 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_WaitOnRXNEFlagUntilTimeout
+                0x00000000       0xba /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_IsAcknowledgeFailed
+                0x00000000       0x5c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text.I2C_ConvertOtherXferOptions
+                0x00000000       0x34 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .text.HAL_I2CEx_ConfigAnalogFilter
+                0x00000000       0x74 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .text.HAL_I2CEx_ConfigDigitalFilter
+                0x00000000       0x7a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_DeInit
+                0x00000000        0xe /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_MCOConfig
+                0x00000000       0xd0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_EnableCSS
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_DisableCSS
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_GetHCLKFreq
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_GetPCLK1Freq
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_GetPCLK2Freq
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_GetOscConfig
+                0x00000000      0x128 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_GetClockConfig
+                0x00000000       0x60 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_NMI_IRQHandler
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text.HAL_RCC_CSSCallback
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x00000000      0x1dc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCCEx_GetPeriphCLKConfig
+                0x00000000       0x74 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x00000000       0xbc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCCEx_EnablePLLI2S
+                0x00000000       0x88 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCCEx_DisablePLLI2S
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text.HAL_RCC_DeInit
+                0x00000000      0x19c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .data.pFlash   0x00000000       0x20 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_Program
+                0x00000000       0xa4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_Program_IT
+                0x00000000       0x88 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_IRQHandler
+                0x00000000      0x12c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_EndOfOperationCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_OperationErrorCallback
+                0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_Unlock
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_Lock
+                0x00000000       0x20 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_OB_Unlock
+                0x00000000       0x38 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_OB_Lock
+                0x00000000       0x20 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_OB_Launch
+                0x00000000       0x24 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.HAL_FLASH_GetError
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x80 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_Program_DoubleWord
+                0x00000000       0x64 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_Program_Word
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_Program_HalfWord
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_Program_Byte
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text.FLASH_SetErrorCode
+                0x00000000       0xcc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_Erase
+                0x00000000       0xdc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_Erase_IT
+                0x00000000       0x98 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_OBProgram
+                0x00000000       0xdc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_OBGetConfig
+                0x00000000       0x46 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_AdvOBProgram
+                0x00000000       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_AdvOBGetConfig
+                0x00000000       0x20 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_OB_SelectPCROP
+                0x00000000       0x2c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.HAL_FLASHEx_OB_DeSelectPCROP
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_MassErase
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_Erase_Sector
+                0x00000000       0x90 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_EnableWRP
+                0x00000000       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_DisableWRP
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_EnablePCROP
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_DisablePCROP
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_RDP_LevelConfig
+                0x00000000       0x34 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_UserConfig
+                0x00000000       0x58 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_BOR_LevelConfig
+                0x00000000       0x38 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_GetWRP
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_OB_GetBOR
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text.FLASH_FlushCaches
+                0x00000000       0x88 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .text.HAL_GPIO_DeInit
+                0x00000000      0x1c4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .text.HAL_GPIO_LockPin
+                0x00000000       0x4e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x00000000       0x30 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .text.HAL_GPIO_EXTI_Callback
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .text.HAL_DMAEx_MultiBufferStart
+                0x00000000       0x94 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .text.HAL_DMAEx_MultiBufferStart_IT
+                0x00000000     0x128c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .text.HAL_DMAEx_ChangeMemory
+                0x00000000       0x32 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .text.DMA_MultiBufferSetConfig
+                0x00000000       0x4a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_Init
+                0x00000000      0x15c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_DeInit
+                0x00000000       0xba /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_Start
+                0x00000000       0x74 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_Start_IT
+                0x00000000       0xae /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_Abort
+                0x00000000       0xde /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_Abort_IT
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_PollForTransfer
+                0x00000000      0x1bc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_IRQHandler
+                0x00000000      0x314 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_RegisterCallback
+                0x00000000       0xac /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_UnRegisterCallback
+                0x00000000       0xd8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_GetState
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.HAL_DMA_GetError
+                0x00000000       0x16 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.DMA_SetConfig
+                0x00000000       0x5a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.DMA_CalcBaseAndBitshift
+                0x00000000       0x68 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text.DMA_CheckFifoParam
+                0x00000000      0x10a /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .rodata.flagBitshiftOffset.0
+                0x00000000        0x8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DeInit
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnableBkUpAccess
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DisableBkUpAccess
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_ConfigPVD
+                0x00000000       0xbc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnablePVD
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DisablePVD
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnableWakeUpPin
+                0x00000000       0x24 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DisableWakeUpPin
+                0x00000000       0x24 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnterSLEEPMode
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnterSTOPMode
+                0x00000000       0x5c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnterSTANDBYMode
+                0x00000000       0x30 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_PVD_IRQHandler
+                0x00000000       0x24 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_PVDCallback
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnableSleepOnExit
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DisableSleepOnExit
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_EnableSEVOnPend
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text.HAL_PWR_DisableSEVOnPend
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_EnableBkUpReg
+                0x00000000       0x4c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_DisableBkUpReg
+                0x00000000       0x4c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_EnableFlashPowerDown
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_DisableFlashPowerDown
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_GetVoltageRange
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_ControlVoltageScaling
+                0x00000000       0xf4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_EnableMainRegulatorLowVoltage
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_DisableMainRegulatorLowVoltage
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_EnableLowRegulatorLowVoltage
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text.HAL_PWREx_DisableLowRegulatorLowVoltage
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_EnableIRQ
+                0x00000000       0x38 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_DisableIRQ
+                0x00000000       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_GetPendingIRQ
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_SetPendingIRQ
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_ClearPendingIRQ
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_GetActive
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_GetPriority
+                0x00000000       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.NVIC_DecodePriority
+                0x00000000       0x76 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_SystemReset
+                0x00000000       0x2c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_EnableIRQ
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_DisableIRQ
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_SystemReset
+                0x00000000        0x8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_MPU_Disable
+                0x00000000       0x2c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_MPU_Enable
+                0x00000000       0x3c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_MPU_EnableRegion
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_MPU_DisableRegion
+                0x00000000       0x28 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_MPU_ConfigRegion
+                0x00000000       0x7c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_CORTEX_ClearEvent
+                0x00000000       0x10 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x00000000        0xe /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_GetPriority
+                0x00000000       0x2c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_SetPendingIRQ
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_GetPendingIRQ
+                0x00000000       0x1e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_GetActive
+                0x00000000       0x1e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x00000000       0x38 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_SYSTICK_IRQHandler
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_SYSTICK_Callback
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DeInit
+                0x00000000       0x5c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_MspInit
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_MspDeInit
+                0x00000000        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetTickPrio
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_SetTickFreq
+                0x00000000       0x50 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetTickFreq
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_SuspendTick
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_ResumeTick
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetHalVersion
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetREVID
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetDEVID
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x00000000       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_EnableCompensationCell
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_DisableCompensationCell
+                0x00000000       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetUIDw0
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetUIDw1
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text.HAL_GetUIDw2
+                0x00000000       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_SetConfigLine
+                0x00000000      0x14c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_GetConfigLine
+                0x00000000       0xf0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_ClearConfigLine
+                0x00000000       0xc0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_RegisterCallback
+                0x00000000       0x32 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_GetHandle
+                0x00000000       0x26 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_IRQHandler
+                0x00000000       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_GetPending
+                0x00000000       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_ClearPending
+                0x00000000       0x30 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text.HAL_EXTI_GenerateSWI
+                0x00000000       0x2c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .comment       0x00000000       0x13 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .ARM.attributes
+                0x00000000       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+ .text          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xec /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .data          0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+ .bss           0x00000000        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_3.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_i2c_ex_4.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_ex_6.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_7.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ex_8.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_flash_ramfunc_9.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_ex_11.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_dma_12.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_13.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_pwr_ex_14.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_exti_17.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+LOAD /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a
+                0x20018000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x194
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x194 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+                0x08000000                g_pfnVectors
+
+.text           0x08000194     0x1574
+ *(.text*)
+ .text.Reset_Handler
+                0x08000194       0x50 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+                0x08000194                Reset_Handler
+ .text.Default_Handler
+                0x080001e4        0x2 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+                0x080001e4                DMA1_Stream3_IRQHandler
+                0x080001e4                EXTI2_IRQHandler
+                0x080001e4                SPI4_IRQHandler
+                0x080001e4                TIM1_CC_IRQHandler
+                0x080001e4                DMA2_Stream5_IRQHandler
+                0x080001e4                DMA1_Stream5_IRQHandler
+                0x080001e4                PVD_IRQHandler
+                0x080001e4                SDIO_IRQHandler
+                0x080001e4                TAMP_STAMP_IRQHandler
+                0x080001e4                EXTI3_IRQHandler
+                0x080001e4                TIM1_UP_TIM10_IRQHandler
+                0x080001e4                I2C3_ER_IRQHandler
+                0x080001e4                EXTI0_IRQHandler
+                0x080001e4                I2C2_EV_IRQHandler
+                0x080001e4                DMA1_Stream2_IRQHandler
+                0x080001e4                FPU_IRQHandler
+                0x080001e4                DMA2_Stream2_IRQHandler
+                0x080001e4                SPI1_IRQHandler
+                0x080001e4                TIM1_BRK_TIM9_IRQHandler
+                0x080001e4                DMA2_Stream3_IRQHandler
+                0x080001e4                USART6_IRQHandler
+                0x080001e4                DMA2_Stream0_IRQHandler
+                0x080001e4                TIM4_IRQHandler
+                0x080001e4                I2C1_EV_IRQHandler
+                0x080001e4                DMA1_Stream6_IRQHandler
+                0x080001e4                DMA1_Stream1_IRQHandler
+                0x080001e4                TIM3_IRQHandler
+                0x080001e4                RCC_IRQHandler
+                0x080001e4                Default_Handler
+                0x080001e4                EXTI15_10_IRQHandler
+                0x080001e4                ADC_IRQHandler
+                0x080001e4                DMA1_Stream7_IRQHandler
+                0x080001e4                TIM5_IRQHandler
+                0x080001e4                DMA2_Stream7_IRQHandler
+                0x080001e4                I2C3_EV_IRQHandler
+                0x080001e4                EXTI9_5_IRQHandler
+                0x080001e4                RTC_WKUP_IRQHandler
+                0x080001e4                SPI2_IRQHandler
+                0x080001e4                DMA1_Stream0_IRQHandler
+                0x080001e4                EXTI4_IRQHandler
+                0x080001e4                WWDG_IRQHandler
+                0x080001e4                TIM2_IRQHandler
+                0x080001e4                OTG_FS_WKUP_IRQHandler
+                0x080001e4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001e4                EXTI1_IRQHandler
+                0x080001e4                USART2_IRQHandler
+                0x080001e4                I2C2_ER_IRQHandler
+                0x080001e4                DMA2_Stream1_IRQHandler
+                0x080001e4                FLASH_IRQHandler
+                0x080001e4                DMA2_Stream4_IRQHandler
+                0x080001e4                USART1_IRQHandler
+                0x080001e4                OTG_FS_IRQHandler
+                0x080001e4                SPI3_IRQHandler
+                0x080001e4                DMA1_Stream4_IRQHandler
+                0x080001e4                I2C1_ER_IRQHandler
+                0x080001e4                DMA2_Stream6_IRQHandler
+                0x080001e4                RTC_Alarm_IRQHandler
+ *fill*         0x080001e6        0x2 
+ .text.main     0x080001e8       0x78 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+                0x080001e8                main
+ .text.SystemClock_Config
+                0x08000260       0xd4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .text.MX_GPIO_Init
+                0x08000334       0xa4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .text.Error_Handler
+                0x080003d8        0xa /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+                0x080003d8                Error_Handler
+ .text.NMI_Handler
+                0x080003e2        0x6 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x080003e2                NMI_Handler
+ .text.HardFault_Handler
+                0x080003e8        0x6 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x080003e8                HardFault_Handler
+ .text.MemManage_Handler
+                0x080003ee        0x6 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x080003ee                MemManage_Handler
+ .text.BusFault_Handler
+                0x080003f4        0x6 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x080003f4                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080003fa        0x6 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x080003fa                UsageFault_Handler
+ .text.SVC_Handler
+                0x08000400        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x08000400                SVC_Handler
+ .text.DebugMon_Handler
+                0x0800040c        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x0800040c                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08000418        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x08000418                PendSV_Handler
+ .text.SysTick_Handler
+                0x08000424        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                0x08000424                SysTick_Handler
+ .text.HAL_MspInit
+                0x08000430       0x4c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+                0x08000430                HAL_MspInit
+ .text.HAL_RCC_OscConfig
+                0x0800047c      0x4f0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+                0x0800047c                HAL_RCC_OscConfig
+ .text.HAL_RCC_ClockConfig
+                0x0800096c      0x1cc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+                0x0800096c                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x08000b38      0x18c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+                0x08000b38                HAL_RCC_GetSysClockFreq
+ .text.HAL_GPIO_Init
+                0x08000cc4      0x304 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+                0x08000cc4                HAL_GPIO_Init
+ .text.HAL_GPIO_ReadPin
+                0x08000fc8       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+                0x08000fc8                HAL_GPIO_ReadPin
+ .text.HAL_GPIO_WritePin
+                0x08000ff6       0x30 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+                0x08000ff6                HAL_GPIO_WritePin
+ .text.HAL_GPIO_TogglePin
+                0x08001026       0x32 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+                0x08001026                HAL_GPIO_TogglePin
+ .text.__NVIC_SetPriorityGrouping
+                0x08001058       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_GetPriorityGrouping
+                0x080010a0       0x1c /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.__NVIC_SetPriority
+                0x080010bc       0x54 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.NVIC_EncodePriority
+                0x08001110       0x6e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ *fill*         0x0800117e        0x2 
+ .text.SysTick_Config
+                0x08001180       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x080011c4       0x16 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+                0x080011c4                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x080011da       0x38 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+                0x080011da                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x08001212       0x18 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+                0x08001212                HAL_SYSTICK_Config
+ *fill*         0x0800122a        0x2 
+ .text.HAL_Init
+                0x0800122c       0x44 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x0800122c                HAL_Init
+ .text.HAL_InitTick
+                0x08001270       0x60 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x08001270                HAL_InitTick
+ .text.HAL_IncTick
+                0x080012d0       0x24 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x080012d0                HAL_IncTick
+ .text.HAL_GetTick
+                0x080012f4       0x14 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x080012f4                HAL_GetTick
+ .text.HAL_Delay
+                0x08001308       0x48 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x08001308                HAL_Delay
+ .text.SystemInit
+                0x08001350        0xc /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+                0x08001350                SystemInit
+ .text          0x0800135c       0x40 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+                0x0800135c                memset
+                0x08001390                __libc_init_array
+ .text          0x0800139c       0x30 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0800139c                __aeabi_uldivmod
+ .text          0x080013cc      0x328 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x080013cc                __udivmoddi4
+ .text          0x080016f4        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x080016f4                __aeabi_ldiv0
+                0x080016f4                __aeabi_idiv0
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x080016f8       0x10 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+                0x080016f8                AHBPrescTable
+ *(.init)
+ *(.fini)
+
+.glue_7         0x08001708        0x0
+ .glue_7        0x08001708        0x0 linker stubs
+
+.glue_7t        0x08001708        0x0
+ .glue_7t       0x08001708        0x0 linker stubs
+
+.vfp11_veneer   0x08001708        0x0
+ .vfp11_veneer  0x08001708        0x0 linker stubs
+
+.v4_bx          0x08001708        0x0
+ .v4_bx         0x08001708        0x0 linker stubs
+
+.iplt           0x08001708        0x0
+ .iplt          0x08001708        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x08001708        0x8
+ *(.ARM.exidx*)
+ .ARM.exidx     0x08001708        0x8 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.rel.dyn        0x08001710        0x0
+ .rel.iplt      0x08001710        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+
+.data           0x20000000        0xc load address 0x08001710
+                0x20000000                        _sdata = .
+ *(.data*)
+ .data.uwTickPrio
+                0x20000000        0x4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x20000000                uwTickPrio
+ .data.uwTickFreq
+                0x20000004        0x1 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x20000004                uwTickFreq
+ *fill*         0x20000005        0x3 
+ .data.SystemCoreClock
+                0x20000008        0x4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+                0x20000008                SystemCoreClock
+                0x2000000c                        _edata = .
+                0x08001710                        _sidata = LOADADDR (.data)
+
+.igot.plt       0x2000000c        0x0 load address 0x0800171c
+ .igot.plt      0x2000000c        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+
+.bss            0x2000000c        0x4 load address 0x0800171c
+                0x2000000c                        _sbss = .
+ *(.bss*)
+ .bss.uwTick    0x2000000c        0x4 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                0x2000000c                uwTick
+ *(COMMON)
+                0x20000010                        _ebss = .
+                0x20000010                        . = ALIGN (0x8)
+                0x20000010                        end = .
+OUTPUT(/Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/TASK12B.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x21 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/startup.o
+ .ARM.attributes
+                0x00000021       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+ .ARM.attributes
+                0x0000004f       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+ .ARM.attributes
+                0x0000007d       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+ .ARM.attributes
+                0x000000ab       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+ .ARM.attributes
+                0x000000d9       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+ .ARM.attributes
+                0x00000107       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+ .ARM.attributes
+                0x00000135       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+ .ARM.attributes
+                0x00000163       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+ .ARM.attributes
+                0x00000191       0x2e /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+ .ARM.attributes
+                0x000001bf       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000001dd       0x2e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000020b       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+.comment        0x00000000       0x12
+ .comment       0x00000000       0x12 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/main_0.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_it_1.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_msp_2.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_rcc_5.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_gpio_10.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_cortex_15.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32f4xx_hal_16.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/system_stm32f4xx_18.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /Users/diyaroshini/Desktop/25011102031_FIoT_LAB/STM32/CAT12/TASK12B/Build-GCC/stm32_gcc_runtime.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                                 0x13 (size before relaxing)
+
+.debug_line     0x00000000      0x6ae
+ .debug_line    0x00000000       0x4e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0000004e      0x616 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00000664       0x4a /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_line_str
+                0x00000000       0xb6
+ .debug_line_str
+                0x00000000       0xb6 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                 0xaa (size before relaxing)
+ .debug_line_str
+                0x000000b6        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                                 0xae (size before relaxing)
+
+.debug_info     0x00000000      0x74e
+ .debug_info    0x00000000       0x24 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00000024      0x6ee /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00000712       0x3c /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000      0x1aa
+ .debug_abbrev  0x00000000       0x14 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x00000014      0x170 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x00000184       0x26 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_aranges  0x00000000       0x60
+ .debug_aranges
+                0x00000000       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000020       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000040       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000      0x6b8
+ .debug_str     0x00000000      0x6b8 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                 0xb6 (size before relaxing)
+ .debug_str     0x000006b8        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                                0x66d (size before relaxing)
+ .debug_str     0x000006b8        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                                 0xd6 (size before relaxing)
+
+.debug_frame    0x00000000       0x60
+ .debug_frame   0x00000000       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000002c       0x34 /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_loclists
+                0x00000000      0xa0e
+ .debug_loclists
+                0x00000000      0xa0e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_rnglists
+                0x00000000       0x8e
+ .debug_rnglists
+                0x00000000       0x8e /opt/homebrew/Cellar/arm-none-eabi-gcc/16.2.0/lib/gcc/arm-none-eabi/16.2.0/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
