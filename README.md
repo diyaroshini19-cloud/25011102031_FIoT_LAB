@@ -1,25 +1,72 @@
-# Foundations of IoT Lab Repository
+# Foundations of IoT Laboratory
 
-This repository contains lab experiments for 8051 (AT89S52) and STM32 microcontrollers. It includes embedded C sources, Keil uVision projects, STM32CubeMX configurations, startup and driver files, circuit references, and task-specific instructions.
+This repository contains the practical experiments performed as part of the **Foundations of IoT (FIoT) Laboratory**. The experiments cover microcontroller programming, peripheral interfacing, communication protocols, wireless connectivity and sensor-based IoT applications using 8051 and STM32 microcontrollers.
 
-## Repository layout
+## Repository Structure
 
-- `8051/CATn/TASK.../` contains the 8051 task projects. CAT5 has TASK5A, TASK5B.1–5B.3 and TASK5C; CAT7 has TASK7A–TASK7C.
-- `STM32/CATn/TASK.../` contains STM32 task projects, including CubeMX `.ioc` files, `Core/`, vendor `Drivers/`, and Keil projects in `MDK-ARM/`.
-- `reference/` preserves supplied lab documents and original STM32 project materials used to map and integrate tasks.
-- `tools/` contains the GCC startup and memory-layout support used by the repeatable STM32 GCC build script.
-- `MASTER_TASK_MAPPING.md` records the syllabus-to-repository mapping, including the corrected CAT10/CAT11/CAT14 assignments.
+```text
+25011102031_FIoT_LAB/
+│
+├── 8051/
+│   ├── CAT2/
+│   ├── CAT3/
+│   ├── CAT4/
+│   ├── CAT5/
+│   ├── CAT6/
+│   └── CAT7/
+│
+├── STM32/
+│   ├── CAT8/
+│   ├── CAT9/
+│   ├── CAT10/
+│   ├── CAT11/
+│   ├── CAT12/
+│   ├── CAT13/
+│   └── CAT14/
+│
+└── README.md
+```
 
-Each task folder's `README.md` describes its experiment, wiring assumptions, project files, and build or validation status. Read the task instructions before connecting hardware, especially where a manual does not specify a pinout.
+Each CAT folder contains the corresponding experiment files, source code and project configurations. Individual task folders include their own README files and supporting files.
 
-## Toolchains
+## 8051 Experiments
 
-- **8051:** Keil µVision with the C51 toolchain. The repository also contains SDCC-built MCS-51 HEX outputs for all 13 listed 8051 tasks.
-- **STM32:** Keil µVision and STM32CubeMX for the provided projects. `python3 build_stm32_gcc.py` builds the verified GCC-compatible subset when ARM GCC and binutils are installed.
-- **Structural checks:** run `python3 evaluate_repository.py` from the repository root. This checks required task artifacts and parses Keil XML/source references; it is not a substitute for compiling every project or testing hardware.
+The 8051 experiments introduce embedded C programming and interfacing of basic peripherals with the AT89S52 microcontroller.
 
-## Validation status
+| Folder | Experiments |
+|---|---|
+| CAT2 | GPIO interfacing and LED control |
+| CAT3 | Switch interfacing and polling |
+| CAT4 | Matrix keypad and seven-segment display interfacing |
+| CAT5 | Hardware timers, PWM generation and stepper motor interfacing |
+| CAT6 | UART communication and serial debugging |
+| CAT7 | LCD interfacing and display control |
 
-The latest structural evaluation reports **28/28 tasks**, **198/198 required-file checks**, and **60/60 Keil project XML/source-reference checks** passed. See `EVALUATION_REPORT.md` for the complete output and `ENGINEERING_VALIDATION_REPORT.md` for compiler evidence and limitations.
+These experiments provide practical experience with digital input/output, timing, interrupts, serial communication and peripheral control.
 
-8051 outputs were compiled with SDCC. The STM32 tasks freshly compiled and linked with ARM GCC were CAT8B, CAT8C, CAT12A, CAT12B and CAT12C; other STM32 task compilation is not claimed here. Keil-native compilation has not been reported, and no physical hardware testing was performed. Confirm hardware wiring and credentials/placeholders against your setup before use.
+## STM32 Experiments
+
+The STM32 experiments explore ARM Cortex-M microcontrollers and their use in IoT applications. The projects use STM32 peripherals, communication interfaces and external modules.
+
+| Folder | Experiments |
+|---|---|
+| CAT8 | GPIO programming, LED and switch interfacing |
+| CAT9 | UART communication and UART-controlled LED |
+| CAT10 | ESP8266 Wi-Fi module interfacing and debug communication |
+| CAT11 | ESP8266-based HTTP server implementation |
+| CAT12 | STM32F401RE GPIO and user-input programming |
+| CAT13 | Sensor-interfacing experiment |
+| CAT14 | BME280 sensor interfacing, MQTT communication and Node-RED visualization |
+
+The experiments demonstrate microcontroller peripheral programming, serial communication, wireless networking, sensor data acquisition and IoT data visualization.
+
+## Development Tools
+
+- **Keil µVision** – 8051 and STM32 project development.
+- **STM32CubeMX** – STM32 peripheral configuration.
+- **Embedded C** – Microcontroller programming.
+- **Node-RED** – IoT data visualization.
+
+## Purpose
+
+The laboratory provides hands-on experience in developing embedded systems and connecting microcontrollers with sensors, communication modules and IoT platforms. It progresses from basic peripheral interfacing to network-connected sensor applications.
