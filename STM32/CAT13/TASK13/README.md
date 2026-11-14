@@ -1,5 +1,9 @@
 # STM32F401RE BME280 Sensor Acquisition
 
+## Circuit / System Diagram
+
+![STM32F401RE BME280 I2C wiring](../circuit13.png)
+
 ## Aim
 Interface a BME280 environmental sensor to the STM32F401RE over I²C and retrieve compensated temperature, pressure, and humidity data.
 

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#2457a7"/></marker></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="40" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#16243a">CAT9 TASK9A - serial echo connection</text>
+<text x="40" y="94" font-family="Arial,sans-serif" font-size="17" fill="#526176">USART2 pin mapping from TASK9A.ioc</text>
+<rect x="36" y="205" width="590" height="260" rx="18" fill="#eaf2ff" stroke="#526176" stroke-width="2"/>
+<text x="54" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">PC / USB-to-TTL</text>
+<line x1="54" y1="259" x2="608" y2="259" stroke="#aab6c5"/>
+<text x="54" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Adapter TX</text>
+<text x="54" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Adapter RX</text>
+<text x="54" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">Signal ground</text>
+<rect x="654" y="205" width="590" height="260" rx="18" fill="#eaf8f0" stroke="#526176" stroke-width="2"/>
+<text x="672" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">STM32F103C8</text>
+<line x1="672" y1="259" x2="1226" y2="259" stroke="#aab6c5"/>
+<text x="672" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">PA3 = USART2_RX</text>
+<text x="672" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">PA2 = USART2_TX</text>
+<text x="672" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">115200 baud, 8-N-1</text>
+<line x1="631" y1="335" x2="649" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="619" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">TX to RX / RX to TX</text>
+<text x="40" y="578" font-family="Arial,sans-serif" font-size="14" fill="#526176">Cross the transmit and receive signals and use compatible 3.3 V UART logic.</text>
+</svg>

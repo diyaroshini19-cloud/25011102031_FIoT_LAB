@@ -1,5 +1,9 @@
 # 8051 UART Character Echo
 
+## Circuit / System Diagram
+
+![8051 UART receive and echo connection](../circuit6.png)
+
 ## Aim
 Receive serial characters on the AT89S52 and return each character to the sender.
 

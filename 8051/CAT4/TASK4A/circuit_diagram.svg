@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#2457a7"/></marker></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="40" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#16243a">CAT4 TASK4A - keypad and display wiring</text>
+<text x="40" y="94" font-family="Arial,sans-serif" font-size="17" fill="#526176">AT89S52 connections reflected in TASK4A.c (supplied 4x3 image uses a different keypad pin map)</text>
+<rect x="36" y="205" width="384" height="260" rx="18" fill="#eaf2ff" stroke="#526176" stroke-width="2"/>
+<text x="54" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">4 x 3 keypad</text>
+<line x1="54" y1="259" x2="402" y2="259" stroke="#aab6c5"/>
+<text x="54" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Rows: P2.5, P2.6, P2.7</text>
+<text x="54" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Columns: P2.0-P2.3</text>
+<text x="54" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">Poll one row at a time</text>
+<rect x="448" y="205" width="384" height="260" rx="18" fill="#eaf8f0" stroke="#526176" stroke-width="2"/>
+<text x="466" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">AT89S52</text>
+<line x1="466" y1="259" x2="814" y2="259" stroke="#aab6c5"/>
+<text x="466" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Port 2 scans keypad</text>
+<text x="466" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">P0.0-P0.7 drives segments</text>
+<text x="466" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">P1.0-P1.3 drive LEDs</text>
+<rect x="860" y="205" width="384" height="260" rx="18" fill="#fff4df" stroke="#526176" stroke-width="2"/>
+<text x="878" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">Indicators</text>
+<line x1="878" y1="259" x2="1226" y2="259" stroke="#aab6c5"/>
+<text x="878" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">7-segment: P0.0-P0.7</text>
+<text x="878" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Four LEDs: P1.0-P1.3</text>
+<text x="878" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">Display type not specified</text>
+<line x1="425" y1="335" x2="443" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="413" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">row/column scan</text>
+<line x1="837" y1="335" x2="855" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="825" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">segment / LED outputs</text>
+<text x="40" y="578" font-family="Arial,sans-serif" font-size="14" fill="#526176">The supplied CAT4 illustration assigns rows to P2.0-P2.3 and columns to P2.4-P2.6; this differs from TASK4A.c. This figure follows the task source.</text>
+</svg>

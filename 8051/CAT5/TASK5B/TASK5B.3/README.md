@@ -1,5 +1,9 @@
 # 8051 Timer-Generated Waveform Patterns
 
+## Circuit / System Diagram
+
+![CAT5 pulse output LED connection](../../circuit5.png)
+
 ## Aim
 Use a timer interrupt to produce several digital waveform shapes from one AT89S52 output.
 

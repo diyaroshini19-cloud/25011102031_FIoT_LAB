@@ -1,5 +1,9 @@
 # STM32F401RE Button-Controlled LED State
 
+## Circuit / System Diagram
+
+![STM32F401RE PC13 user button and PA5 LED](../circuit12_button_led.svg)
+
 ## Aim
 Use the NUCLEO-F401RE user button to toggle and retain the onboard LED state.
 

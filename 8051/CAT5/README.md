@@ -1,62 +1,15 @@
-# CAT 5 – Hardware Timer and Interrupt-Based Timing for LED Fading and Pulse Generation
+# CAT5 - Experiment Overview
 
-## EXP
-CAT 5
+Timer interrupts, LED timing, PWM, and stepper-motor sequencing.
 
-## DATE
-10/08/2026 (Week 4)
+## Tasks
 
-## NAME OF EXP
-Hardware Timer and Interrupt-Based Timing for LED Fading and Pulse Generation
+- [TASK5A](TASK5A/README.md) - Use the AT89S52 Timer 0 interrupt to create a regular timebase and blink an LED at approximately one-second intervals.
+- [TASK5B/TASK5B.1](TASK5B/TASK5B.1/README.md) - Demonstrate software PWM by gradually changing an LED's duty cycle with an AT89S52 timer interrupt.
+- [TASK5B/TASK5B.2](TASK5B/TASK5B.2/README.md) - Generate a square wave on an AT89S52 output and cycle through several nominal frequencies.
+- [TASK5B/TASK5B.3](TASK5B/TASK5B.3/README.md) - Use a timer interrupt to produce several digital waveform shapes from one AT89S52 output.
+- [TASK5C](TASK5C/README.md) - Control a four-phase stepper motor from an AT89S52, with selectable step interval and rotation direction.
 
-## HARDWARE SETUP / PLATFORM
-- AT89S52 Development Board
-- LEDs
-- Resistors
-- Keil µVision
-- Embedded C
+## Circuit Overview
 
-## TASK NO
-
-### Task 1 – LED Blinking Using Timer 0
-
-Configure Timer 0 to generate periodic timing events. Use the timer to toggle an LED at regular intervals.
-
-### Task 2 – LED Fading Using Software PWM
-
-Generate a software PWM signal using Timer 0 and gradually vary the duty cycle from 0% to 100% and back to 0%, producing a visible LED fading effect.
-
-## CIRCUIT DIAGRAM
-
-![CAT5 Circuit Diagram](circuit5.png)
-
-## CORE LOGIC / PSEUDOCODE / CODE BASE
-
-### Pin Configuration
-
-| Component | 8051 Pin |
-|---|---|
-| LED (Task 1) | P1.1 |
-| PWM LED (Task 2) | P2.0 |
-
-### Source Code 1 – cat50.c
-
-- Configure Timer 0 in Mode 1.
-- Load the timer registers TH0 and TL0.
-- Enable Timer 0 and start the timer.
-- Monitor the timer overflow flag.
-- Increment the millisecond counter.
-- Toggle the LED when the counter reaches 200.
-
-### Source Code 2 – cat51.c
-
-- Configure Timer 0 in Mode 2.
-- Initialize the timer interrupt.
-- Increment the PWM counter inside the Timer 0 interrupt service routine.
-- Compare the PWM counter with the duty cycle.
-- Set or clear the PWM output accordingly.
-- Gradually increase the duty cycle from 0 to 100 and decrease it back to 0.
-
-## INFERENCE
-
-The experiment demonstrates timer-based LED control and software PWM generation using the AT89S52. The PWM duty cycle variation produces changes in LED brightness, illustrating timer-controlled output generation.
+![CAT5 timer and PWM LED connections](circuit5.png)

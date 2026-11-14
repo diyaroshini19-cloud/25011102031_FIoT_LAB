@@ -1,5 +1,9 @@
 # STM32 UART Commands for LED Control
 
+## Circuit / System Diagram
+
+![STM32 USART1, command LED, and terminal connection](circuit_diagram.svg)
+
 ## Aim
 Control the STM32F103C8 LED output by sending text commands over USART1.
 

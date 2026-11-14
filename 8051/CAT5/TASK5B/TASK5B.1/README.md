@@ -1,5 +1,9 @@
 # 8051 Timer-Based LED Brightness Control
 
+## Circuit / System Diagram
+
+![CAT5 PWM LED connection on P2.0](../../circuit5.png)
+
 ## Aim
 Demonstrate software PWM by gradually changing an LED's duty cycle with an AT89S52 timer interrupt.
 

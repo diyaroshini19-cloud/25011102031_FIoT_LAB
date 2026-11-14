@@ -1,5 +1,9 @@
 # STM32 Debounced Button Toggle
 
+## Circuit / System Diagram
+
+![STM32F103C6 PA0 button and PA9 LED wiring](../circuit_diagram.svg)
+
 ## Aim
 Toggle an LED once for each accepted push-button press on the STM32F103C6.
 

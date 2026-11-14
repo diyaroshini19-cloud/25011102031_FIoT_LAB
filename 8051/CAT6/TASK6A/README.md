@@ -1,5 +1,9 @@
 # 8051 UART Transmit and Serial Debugging
 
+## Circuit / System Diagram
+
+![8051 UART terminal connection](../circuit6.png)
+
 ## Aim
 Initialize the AT89S52 UART and repeatedly transmit a greeting to a serial terminal.
 

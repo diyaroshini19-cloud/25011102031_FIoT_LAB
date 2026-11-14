@@ -1,5 +1,9 @@
 # 8051 Switch-Controlled LED Patterns
 
+## Circuit / System Diagram
+
+![8051 switch and four-LED connections](../circuit3.png)
+
 ## Aim
 Use a push-button input to select and observe four LED patterns on an AT89S52.
 

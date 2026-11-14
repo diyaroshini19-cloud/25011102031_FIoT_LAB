@@ -1,5 +1,9 @@
 # 8051 Timer-Generated Frequency Steps
 
+## Circuit / System Diagram
+
+![CAT5 square-wave output LED connection](../../circuit5.png)
+
 ## Aim
 Generate a square wave on an AT89S52 output and cycle through several nominal frequencies.
 

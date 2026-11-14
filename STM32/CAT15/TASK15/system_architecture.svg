@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#2457a7"/></marker>
+  </defs>
+  <rect width="1280" height="760" fill="#fbfcfe"/>
+  <text x="40" y="54" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#16243a">CAT15 - Environmental IoT System Overview</text>
+  <text x="40" y="88" font-family="Arial,sans-serif" font-size="17" fill="#526176">Implemented sensor-to-MQTT path plus separately identified application components absent from the supplied project</text>
+  <rect x="28" y="120" width="1224" height="305" rx="18" fill="#f1f6fd" stroke="#91a7c5" stroke-width="2"/>
+  <text x="52" y="153" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#203957">Implemented in CAT15 firmware</text>
+  <!-- BME280 -->
+  <rect x="52" y="188" width="250" height="190" rx="15" fill="#eaf2ff" stroke="#526176" stroke-width="2"/>
+  <text x="72" y="224" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#16243a">BME280</text>
+  <line x1="72" y1="240" x2="282" y2="240" stroke="#aab6c5"/>
+  <text x="72" y="272" font-family="Arial,sans-serif" font-size="16" fill="#243247">Local temperature</text>
+  <text x="72" y="300" font-family="Arial,sans-serif" font-size="16" fill="#243247">Pressure and humidity</text>
+  <text x="72" y="328" font-family="Arial,sans-serif" font-size="16" fill="#243247">I2C sensor</text>
+  <!-- STM32 -->
+  <rect x="354" y="188" width="250" height="190" rx="15" fill="#eaf8f0" stroke="#526176" stroke-width="2"/>
+  <text x="374" y="224" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#16243a">STM32F401RE</text>
+  <line x1="374" y1="240" x2="584" y2="240" stroke="#aab6c5"/>
+  <text x="374" y="272" font-family="Arial,sans-serif" font-size="15" fill="#243247">I2C1: PB6 SCL / PB7 SDA</text>
+  <text x="374" y="300" font-family="Arial,sans-serif" font-size="15" fill="#243247">Reads and formats values</text>
+  <text x="374" y="328" font-family="Arial,sans-serif" font-size="15" fill="#243247">Publishes MQTT message</text>
+  <!-- ESP -->
+  <rect x="656" y="188" width="250" height="190" rx="15" fill="#fff4df" stroke="#526176" stroke-width="2"/>
+  <text x="676" y="224" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#16243a">ESP8266</text>
+  <line x1="676" y1="240" x2="886" y2="240" stroke="#aab6c5"/>
+  <text x="676" y="272" font-family="Arial,sans-serif" font-size="15" fill="#243247">USART1 PA9 TX / PA10 RX</text>
+  <text x="676" y="300" font-family="Arial,sans-serif" font-size="15" fill="#243247">Wi-Fi station</text>
+  <text x="676" y="328" font-family="Arial,sans-serif" font-size="15" fill="#243247">MQTT transport</text>
+  <!-- Broker -->
+  <rect x="958" y="188" width="250" height="190" rx="15" fill="#f4edff" stroke="#526176" stroke-width="2"/>
+  <text x="978" y="224" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#16243a">broker.emqx.io</text>
+  <line x1="978" y1="240" x2="1188" y2="240" stroke="#aab6c5"/>
+  <text x="978" y="272" font-family="Arial,sans-serif" font-size="15" fill="#243247">TCP port 1883</text>
+  <text x="978" y="300" font-family="Arial,sans-serif" font-size="15" fill="#243247">Topic: stm32/diya</text>
+  <text x="978" y="328" font-family="Arial,sans-serif" font-size="15" fill="#243247">Plain-text readings</text>
+  <!-- Actual arrows -->
+  <line x1="302" y1="283" x2="348" y2="283" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="325" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2457a7">I2C1</text>
+  <line x1="604" y1="283" x2="650" y2="283" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="627" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2457a7">UART</text>
+  <line x1="906" y1="283" x2="952" y2="283" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="929" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#2457a7">Wi-Fi / MQTT</text>
+
+  <text x="40" y="475" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#16243a">Requested application components (not included in the supplied CAT15 files)</text>
+  <rect x="28" y="495" width="1224" height="220" rx="18" fill="#fff" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="9 7"/>
+  <rect x="58" y="535" width="330" height="135" rx="14" fill="#f5f6f8" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="78" y="570" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#3e4856">Node-RED dashboard</text>
+  <text x="78" y="602" font-family="Arial,sans-serif" font-size="15" fill="#526176">No Node-RED flow is present</text>
+  <text x="78" y="628" font-family="Arial,sans-serif" font-size="15" fill="#526176">in the CAT15 task folder.</text>
+  <rect x="475" y="535" width="330" height="135" rx="14" fill="#f5f6f8" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="495" y="570" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#3e4856">Open-Meteo climate API</text>
+  <text x="495" y="602" font-family="Arial,sans-serif" font-size="15" fill="#526176">No API client or external</text>
+  <text x="495" y="628" font-family="Arial,sans-serif" font-size="15" fill="#526176">climate data path is present.</text>
+  <rect x="892" y="535" width="330" height="135" rx="14" fill="#f5f6f8" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="912" y="570" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#3e4856">Room-condition suggestions</text>
+  <text x="912" y="602" font-family="Arial,sans-serif" font-size="15" fill="#526176">No application logic or</text>
+  <text x="912" y="628" font-family="Arial,sans-serif" font-size="15" fill="#526176">recommendation rules are present.</text>
+  <text x="40" y="744" font-family="Arial,sans-serif" font-size="14" fill="#526176">The separated blocks identify the requested extension only; no connections to them are claimed or drawn.</text>
+</svg>

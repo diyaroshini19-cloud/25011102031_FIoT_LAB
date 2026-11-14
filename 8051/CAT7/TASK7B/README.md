@@ -1,5 +1,9 @@
 # 8051 LCD Cursor and Dynamic Value Display
 
+## Circuit / System Diagram
+
+![8051 HD44780 LCD connections](../circuit7.png)
+
 ## Aim
 Use LCD cursor positioning and repeated data updates to display a changing elapsed-seconds count.
 

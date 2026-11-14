@@ -1,5 +1,9 @@
 # STM32 GPIO Button-to-LED Control
 
+## Circuit / System Diagram
+
+![STM32F103C6 PA0 button and PA9 LED wiring](../circuit_diagram.svg)
+
 ## Aim
 Demonstrate a digital input controlling a digital output on the STM32F103C6.
 

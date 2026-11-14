@@ -1,5 +1,11 @@
 # STM32F401RE BME280 MQTT Telemetry
 
+## Circuit / System Diagram
+
+![STM32F401RE and BME280 I2C wiring](../../CAT13/circuit13.png)
+
+![STM32F401RE USART1 to ESP8266 UART wiring](../circuit14.png)
+
 ## Aim
 Measure environmental conditions with a BME280 and publish JSON sensor data through an ESP8266 MQTT connection for Node-RED visualization.
 

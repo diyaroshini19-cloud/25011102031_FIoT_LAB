@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#2457a7"/></marker></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="40" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#16243a">CAT7 TASK7C - keypad wiring</text>
+<text x="40" y="94" font-family="Arial,sans-serif" font-size="17" fill="#526176">4x4 keypad scan pins declared in TASK7C.c</text>
+<rect x="36" y="205" width="384" height="260" rx="18" fill="#eaf2ff" stroke="#526176" stroke-width="2"/>
+<text x="54" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">4 x 4 keypad</text>
+<line x1="54" y1="259" x2="402" y2="259" stroke="#aab6c5"/>
+<text x="54" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Rows: P1.0-P1.3</text>
+<text x="54" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Columns: P1.4-P1.7</text>
+<text x="54" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">Active-low row scan</text>
+<rect x="448" y="205" width="384" height="260" rx="18" fill="#eaf8f0" stroke="#526176" stroke-width="2"/>
+<text x="466" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">AT89S52</text>
+<line x1="466" y1="259" x2="814" y2="259" stroke="#aab6c5"/>
+<text x="466" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">P1.0-P1.7 keypad scan</text>
+<text x="466" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">P3.4-P3.7 LCD data</text>
+<text x="466" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">P3.3 RS; P3.2 EN</text>
+<rect x="860" y="205" width="384" height="260" rx="18" fill="#fff4df" stroke="#526176" stroke-width="2"/>
+<text x="878" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">HD44780 LCD</text>
+<line x1="878" y1="259" x2="1226" y2="259" stroke="#aab6c5"/>
+<text x="878" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">4-bit data: D4-D7</text>
+<text x="878" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">RS: P3.3</text>
+<text x="878" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">EN: P3.2; RW grounded</text>
+<line x1="425" y1="335" x2="443" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="413" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">key states</text>
+<line x1="837" y1="335" x2="855" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="825" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">LCD output</text>
+<text x="40" y="578" font-family="Arial,sans-serif" font-size="14" fill="#526176">LCD wiring follows the existing CAT7 diagram; keypad wiring follows TASK7C.c.</text>
+</svg>

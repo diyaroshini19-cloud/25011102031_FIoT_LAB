@@ -1,5 +1,9 @@
 # STM32 Short- and Long-Press LED Modes
 
+## Circuit / System Diagram
+
+![STM32F103C6 PA0 button and PA9 LED wiring](../circuit_diagram.svg)
+
 ## Aim
 Use short and long presses on the STM32F103C6 to control an LED in steady and blinking modes.
 

@@ -1,5 +1,9 @@
 # 8051 LED Blink with GPIO
 
+## Circuit / System Diagram
+
+![8051 LED connection on P1.0](../circuit2.png)
+
 ## Aim
 Use an AT89S52 digital output to switch an LED on and off with a software delay.
 

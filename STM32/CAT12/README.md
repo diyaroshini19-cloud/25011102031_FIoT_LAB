@@ -1,16 +1,13 @@
-# CAT12 category notes and Week 12 task mapping
+# CAT12 - Experiment Overview
 
-The authoritative syllabus assigns **Week 12: STM32F401RE GPIO and user input** to the evaluation folders `TASK12A`, `TASK12B` and `TASK12C`. Those task-specific folders contain the F401RE HAL projects and are the evaluation-ready implementations.
+STM32F401 GPIO output and user-button interaction.
 
-## Original category-root material
+## Tasks
 
-The pre-existing root project (`ledddd.ioc`, `Core/`, `Drivers/`, `MDK-ARM/`) is retained as original source material. Its configuration targets STM32F103C8 and its README's PC13 LED claim does not match the NUCLEO-F401RE board. Do not use that root project as the Week 12 task project. The original files were preserved; the three task projects use the correct F401RE target.
+- [TASK12A](TASK12A/README.md) - Initialize a GPIO output on the STM32F401RE and blink the NUCLEO-F401RE onboard LED.
+- [TASK12B](TASK12B/README.md) - Use the NUCLEO-F401RE user button to toggle and retain the onboard LED state.
+- [TASK12C](TASK12C/README.md) - Distinguish short and long presses of the NUCLEO-F401RE user button to control LD2.
 
-## Week 12 hardware used by task folders
+## Circuit Overview
 
-- MCU and board: STM32F401RE / NUCLEO-F401RE.
-- LD2 user LED: PA5, active high.
-- B1 user switch: PC13, active high; GPIO configured without an internal pull because the board provides its input network.
-- Clock: HSI with PLL to 84 MHz.
-
-The board mapping follows ST's [UM1724 NUCLEO-F401RE user manual](https://www.st.com/resource/en/user_manual/dm00105823.pdf). Task-specific objectives, implementation and builds are documented in each `TASK12*/README.md`.
+![CAT12 user button and LED](circuit12_button_led.svg)

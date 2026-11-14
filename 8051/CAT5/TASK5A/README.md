@@ -1,5 +1,9 @@
 # 8051 Timer-Driven LED Blink
 
+## Circuit / System Diagram
+
+![CAT5 timer LED connection](../circuit5.png)
+
 ## Aim
 Use the AT89S52 Timer 0 interrupt to create a regular timebase and blink an LED at approximately one-second intervals.
 

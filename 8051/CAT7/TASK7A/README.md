@@ -1,5 +1,9 @@
 # 8051 16×2 LCD Initialization and Text Output
 
+## Circuit / System Diagram
+
+![8051 HD44780 LCD connections](../circuit7.png)
+
 ## Aim
 Initialize a 16×2 HD44780-compatible display in four-bit mode and write a short message.
 

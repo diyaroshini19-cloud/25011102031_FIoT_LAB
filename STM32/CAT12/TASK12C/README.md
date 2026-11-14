@@ -1,5 +1,9 @@
 # STM32F401RE Short- and Long-Press LED Control
 
+## Circuit / System Diagram
+
+![STM32F401RE PC13 user button and PA5 LED](../circuit12_button_led.svg)
+
 ## Aim
 Distinguish short and long presses of the NUCLEO-F401RE user button to control LD2.
 

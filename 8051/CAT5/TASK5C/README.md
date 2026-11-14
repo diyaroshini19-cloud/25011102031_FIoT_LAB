@@ -1,5 +1,9 @@
 # 8051 Stepper Motor Speed and Direction
 
+## Circuit / System Diagram
+
+![CAT5 stepper-motor phase outputs and active-low controls](circuit_diagram.svg)
+
 ## Aim
 Control a four-phase stepper motor from an AT89S52, with selectable step interval and rotation direction.
 

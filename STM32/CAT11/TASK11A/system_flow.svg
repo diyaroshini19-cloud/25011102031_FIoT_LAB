@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#2457a7"/></marker></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="40" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#16243a">CAT11 TASK11A - HTTP request and response</text>
+<text x="40" y="94" font-family="Arial,sans-serif" font-size="17" fill="#526176">Firmware parses ESP8266 +IPD data and sends an HTTP response</text>
+<rect x="36" y="205" width="281" height="260" rx="18" fill="#eaf2ff" stroke="#526176" stroke-width="2"/>
+<text x="54" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">HTTP client</text>
+<line x1="54" y1="259" x2="299" y2="259" stroke="#aab6c5"/>
+<text x="54" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Browser or client</text>
+<text x="54" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">GET to server IP</text>
+<rect x="345" y="205" width="281" height="260" rx="18" fill="#eaf8f0" stroke="#526176" stroke-width="2"/>
+<text x="363" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">ESP8266</text>
+<line x1="363" y1="259" x2="608" y2="259" stroke="#aab6c5"/>
+<text x="363" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">TCP server port 80</text>
+<text x="363" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">+IPD payload framing</text>
+<rect x="654" y="205" width="281" height="260" rx="18" fill="#fff4df" stroke="#526176" stroke-width="2"/>
+<text x="672" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">STM32F103C8</text>
+<line x1="672" y1="259" x2="917" y2="259" stroke="#aab6c5"/>
+<text x="672" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">USART1 PA10 RX / PA9 TX</text>
+<text x="672" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Parses request</text>
+<text x="672" y="343" font-family="Arial,sans-serif" font-size="15" fill="#243247">Builds HTTP/1.1 response</text>
+<rect x="963" y="205" width="281" height="260" rx="18" fill="#f4edff" stroke="#526176" stroke-width="2"/>
+<text x="981" y="243" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#16243a">HTTP client</text>
+<line x1="981" y1="259" x2="1226" y2="259" stroke="#aab6c5"/>
+<text x="981" y="289" font-family="Arial,sans-serif" font-size="15" fill="#243247">Receives response page</text>
+<text x="981" y="316" font-family="Arial,sans-serif" font-size="15" fill="#243247">Debug is on USART2</text>
+<line x1="322" y1="335" x2="340" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="310" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">Wi-Fi / TCP</text>
+<line x1="631" y1="335" x2="649" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="619" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">UART1 +IPD</text>
+<line x1="940" y1="335" x2="958" y2="335" stroke="#2457a7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="928" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#2457a7">HTTP response</text>
+<text x="40" y="578" font-family="Arial,sans-serif" font-size="14" fill="#526176">USART2 debug uses PA3 RX and PA2 TX.</text>
+</svg>
