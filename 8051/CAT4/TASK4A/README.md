@@ -2,7 +2,7 @@
 
 ## Circuit / System Diagram
 
-![CAT4 keypad, seven-segment display and LED connections](circuit_diagram.svg)
+![CAT4 keypad, seven-segment display and LED connections](circuit_diagram.png)
 
 ## Aim
 Read a numeric key from a matrix keypad, display the selected digit, and demonstrate LED patterns on the AT89S52.

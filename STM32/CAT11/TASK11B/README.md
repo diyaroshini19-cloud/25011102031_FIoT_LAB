@@ -2,9 +2,9 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C8T6 and ESP8266 UART wiring](../../CAT10/circuit_diagram.svg)
+![STM32F103C8T6 and ESP8266 UART wiring](../../CAT10/circuit_diagram.png)
 
-![CAT11B Node-RED HTTP client path](system_flow.svg)
+![CAT11B Node-RED HTTP client path](system_flow.png)
 
 ## Aim
 Use Node-RED as a second HTTP client to request a page from the STM32/ESP8266 server and view its response.

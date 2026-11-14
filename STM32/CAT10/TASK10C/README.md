@@ -2,9 +2,9 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.svg)
+![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.png)
 
-![CAT10C Wi-Fi station and TCP server path](system_flow.svg)
+![CAT10C Wi-Fi station and TCP server path](system_flow.png)
 
 ## Aim
 Configure the ESP8266 as a Wi-Fi station and start a TCP server through AT commands sent by an STM32F103C8.

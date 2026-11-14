@@ -8,4 +8,4 @@ Matrix keypad scanning, seven-segment output, and LED patterns.
 
 ## Circuit Overview
 
-![CAT4 keypad and display connections](TASK4A/circuit_diagram.svg)
+![CAT4 keypad and display connections](TASK4A/circuit_diagram.png)

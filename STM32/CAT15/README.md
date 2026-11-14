@@ -8,4 +8,4 @@ Environmental telemetry, with requested external API and recommendation extensio
 
 ## Circuit Overview
 
-![CAT15 implemented system path](TASK15/system_architecture.svg)
+![CAT15 implemented system path](TASK15/system_architecture.png)

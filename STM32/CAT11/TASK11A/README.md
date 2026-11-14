@@ -2,9 +2,9 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C8T6 and ESP8266 UART wiring](../../CAT10/circuit_diagram.svg)
+![STM32F103C8T6 and ESP8266 UART wiring](../../CAT10/circuit_diagram.png)
 
-![CAT11A HTTP request and response path](system_flow.svg)
+![CAT11A HTTP request and response path](system_flow.png)
 
 ## Aim
 Receive HTTP requests delivered by an ESP8266 TCP server and return an HTTP response from the STM32F103C8.

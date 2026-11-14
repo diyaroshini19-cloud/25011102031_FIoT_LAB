@@ -2,7 +2,7 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C6 PA0 button and PA9 LED wiring](../circuit_diagram.svg)
+![STM32F103C6 PA0 button and PA9 LED wiring](../circuit_diagram.png)
 
 ## Aim
 Use short and long presses on the STM32F103C6 to control an LED in steady and blinking modes.

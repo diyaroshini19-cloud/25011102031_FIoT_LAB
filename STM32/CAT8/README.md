@@ -10,4 +10,4 @@ STM32F103 GPIO input, button handling, and LED behavior.
 
 ## Circuit Overview
 
-![CAT8 GPIO button and LED connections](circuit_diagram.svg)
+![CAT8 GPIO button and LED connections](circuit_diagram.png)

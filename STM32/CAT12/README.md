@@ -10,4 +10,4 @@ STM32F401 GPIO output and user-button interaction.
 
 ## Circuit Overview
 
-![CAT12 user button and LED](circuit12_button_led.svg)
+![CAT12 user button and LED](circuit12_button_led.png)

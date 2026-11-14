@@ -2,9 +2,9 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.svg)
+![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.png)
 
-![CAT10A UART byte-forwarding path](system_flow.svg)
+![CAT10A UART byte-forwarding path](system_flow.png)
 
 ## Aim
 Establish a serial bridge between an STM32F103C8, a Wemos D1 Mini/ESP8266, and a PC terminal.

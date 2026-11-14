@@ -2,9 +2,9 @@
 
 ## Circuit / System Diagram
 
-![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.svg)
+![STM32F103C8T6 USART links to ESP8266 and PC](../circuit_diagram.png)
 
-![CAT10B AT-command request and response flow](system_flow.svg)
+![CAT10B AT-command request and response flow](system_flow.png)
 
 ## Aim
 Use the STM32F103C8 UART interface to query an ESP8266 AT-command firmware and inspect its Wi-Fi information.

@@ -2,7 +2,7 @@
 
 ## Circuit / System Diagram
 
-![STM32 USART2 and USB-to-TTL UART connection](circuit_diagram.svg)
+![STM32 USART2 and USB-to-TTL UART connection](circuit_diagram.png)
 
 ## Aim
 Initialize a USART peripheral on the STM32F103C8 and return characters received from a serial terminal.

@@ -9,4 +9,4 @@ STM32F103 USART communication and UART-controlled LED output.
 
 ## Circuit Overview
 
-![CAT9 UART connection](TASK9A/circuit_diagram.svg)
+![CAT9 UART connection](TASK9A/circuit_diagram.png)

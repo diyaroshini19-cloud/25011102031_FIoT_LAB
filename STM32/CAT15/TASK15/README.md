@@ -33,7 +33,7 @@ Local sensor readings represent the physical room environment. Open-Meteo would 
 
 ![ESP8266 connected to STM32F401RE USART1](../../CAT14/circuit14.png)
 
-![CAT15 implemented MQTT telemetry path and absent application extensions](system_architecture.svg)
+![CAT15 implemented MQTT telemetry path and absent application extensions](system_architecture.png)
 
 ## Working
 The firmware initializes the BME280 at address 0x76, configures I2C1 at 100 kHz, and reads compensated temperature, pressure, and humidity values. USART1 is configured at 115200 baud for the ESP8266 link. The firmware joins the configured Wi-Fi network, opens TCP to broker.emqx.io:1883, and publishes a text message containing the sensor readings on stm32/diya.

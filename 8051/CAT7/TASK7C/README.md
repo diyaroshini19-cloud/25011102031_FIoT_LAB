@@ -4,7 +4,7 @@
 
 ![8051 HD44780 LCD connections](../circuit7.png)
 
-![CAT7 task keypad pin connections](keypad_wiring.svg)
+![CAT7 task keypad pin connections](keypad_wiring.png)
 
 ## Aim
 Use a 4×4 keypad to move a character around a 16×2 LCD using the direction keys 2, 8, 4, and 6.

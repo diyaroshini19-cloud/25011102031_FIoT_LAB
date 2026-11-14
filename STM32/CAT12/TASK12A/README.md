@@ -2,7 +2,7 @@
 
 ## Circuit / System Diagram
 
-![STM32F401RE PA5 onboard LED output](../circuit12_led.svg)
+![STM32F401RE PA5 onboard LED output](../circuit12_led.png)
 
 ## Aim
 Initialize a GPIO output on the STM32F401RE and blink the NUCLEO-F401RE onboard LED.

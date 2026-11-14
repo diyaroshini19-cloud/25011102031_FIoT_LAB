@@ -9,4 +9,4 @@ HTTP request reception and response through the CAT10 ESP8266 server.
 
 ## Circuit Overview
 
-![CAT11 serial wiring](../CAT10/circuit_diagram.svg)
+![CAT11 serial wiring](../CAT10/circuit_diagram.png)

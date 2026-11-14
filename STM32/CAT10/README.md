@@ -10,4 +10,4 @@ STM32F103 and ESP8266 UART, AT commands, Wi-Fi status, and TCP server setup.
 
 ## Circuit Overview
 
-![CAT10 serial wiring](circuit_diagram.svg)
+![CAT10 serial wiring](circuit_diagram.png)
