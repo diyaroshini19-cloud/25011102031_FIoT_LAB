@@ -1,10 +1,28 @@
-# Week 6 — Interrupt-driven UART receive and echo
+# 8051 UART Character Echo
 
-## Objective and hardware
-Receive bytes on AT89S52 UART and echo them to a terminal at 9600 8-N-1. RXD=P3.0 and TXD=P3.1; use a compatible USB-to-TTL adapter and common ground.
+## Aim
+Receive serial characters on the AT89S52 and return each character to the sender.
 
-## Implementation
-Timer 1 mode 2 with TH1=FDh sets 9600 baud at 11.0592 MHz. The UART ISR stores received bytes in a 32-byte ring buffer and handles TX completion. Foreground code dequeues bytes and transmits the echo. If the ring is full, the newest byte is dropped.
+## Hardware and Components
+- AT89S52 microcontroller board with 11.0592 MHz clock
+- USB-to-TTL serial interface or compatible serial terminal
 
-## Build and testing
-Open `TASK6B.uvproj` in Keil or run `sdcc -mmcs51 --model-small --out-fmt-ihx TASK6B.c -o Objects/TASK6B.ihx`. SDCC 4.6.0 produced the included genuine HEX. Terminal echo and buffer behavior need physical serial testing.
+## Concepts Used
+- UART transmit and receive
+- Timer 1 mode 2 baud generation
+- Serial interrupt and receive buffer
+
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| Serial adapter TX | P3.0 / RXD | Sends characters to the MCU |
+| Serial adapter RX | P3.1 / TXD | Receives echoed characters |
+| Ground | GND | Shared signal reference |
+
+Configure the serial link for 9600 baud, 8 data bits, no parity, and one stop bit.
+
+## Working / Implementation
+Timer 1 mode 2 sets the UART baud rate. The serial interrupt places received bytes into a small circular buffer and clears transmit completion flags. The main loop removes buffered bytes and sends them back through the UART.
+
+## Expected Output
+Characters typed in the terminal are returned by the board as an echo.

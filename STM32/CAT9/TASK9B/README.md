@@ -1,25 +1,30 @@
-# TASK9B — STM32 UART character echo
+# STM32 UART Commands for LED Control
 
-## EXP
-CAT9 / TASK9B
+## Aim
+Control the STM32F103C8 LED output by sending text commands over USART1.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- STM32F103C8 development board
+- USB-to-TTL serial interface or compatible terminal
+- LED connected to the board output
 
-## NAME OF EXP
-STM32 UART character echo
+## Concepts Used
+- UART serial communication
+- Text command parsing
+- GPIO output control
 
-## HARDWARE SETUP / PLATFORM
-STM32F103 project. Archive included project files; source mapping is kept as delivered.
+## Pin Connections / Wiring
+| Component / signal | STM32 pin | Purpose |
+|---|---|---|
+| Adapter TX | PA10 / USART1_RX | Sends commands to the MCU |
+| Adapter RX | PA9 / USART1_TX | Receives command echo and status |
+| LED | PA5 | Active-high output |
+| Ground | GND | Shared signal reference |
 
-## TASK NO
-TASK9B
+The configured USART1 link uses 115200 baud, 8 data bits, no parity, and one stop bit.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
+## Working / Implementation
+The program receives a line of text and echoes incoming characters. On carriage return it compares the line with `LED ON`, `LED OFF`, or `LED TOGGLE` (also accepting lowercase versions), updates PA5, and returns a status message. Other lines produce an invalid-command response.
 
-## Core Logic / Pseudocode / Code Base
-CubeMX project extracted from the repository archive; source and build artifacts retained.
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+Valid commands set, clear, or toggle the PA5 LED, and the terminal receives a response describing the command result.

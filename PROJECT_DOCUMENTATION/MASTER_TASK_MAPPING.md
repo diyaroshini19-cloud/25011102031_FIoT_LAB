@@ -18,6 +18,7 @@ The weekly syllabus is the authority for *what* each experiment covers. The exac
 | 12 | STM32F401RE GPIO and user input | `STM32/CAT12/TASK12A`, `TASK12B`, `TASK12C` | The screenshot provides LED blink, remembered toggle, and short/long press requirements. NUCLEO-F401RE LD2=PA5 and B1=PC13 are supported by ST UM1724. Existing CAT12 root project is F103 and is not reused for this F401 task. |
 | CAT13-labeled supplied evaluation (source PDF) | BME280 I²C sensing, Bosch API, ESP8266 MQTT and Node-RED | `STM32/CAT14/TASK14` | Corrected mapping overrides the printed CAT13 label. Retain the prior CAT13 project as historical source; reuse its Bosch driver in CAT14/TASK14 and combine it with the existing MQTT implementation. |
 | CAT14 evaluation folder | BME280 JSON telemetry over MQTT with Node-RED visualization | `STM32/CAT14/TASK14` | This is the destination required by the correction; broker is `broker.emqx.io:1883`, publish topic `stm32/test/data`, subscribe topic `IOT`. |
+| CAT15 supplied project archive | STM32F401RE BME280 readings published through ESP8266 MQTT | `STM32/CAT15/TASK15` | Integrated from the supplied `project final.zip` using its original CubeMX/Keil project and source. The archive has no separate CAT15 lab manual; the included `.ioc`, project file, and C sources establish PB6/PB7 I²C, PA9/PA10 USART1, broker `broker.emqx.io:1883`, and topic `stm32/diya`. Wi-Fi credentials were replaced with configuration placeholders. |
 
 ## Mapping ambiguities and source limits
 

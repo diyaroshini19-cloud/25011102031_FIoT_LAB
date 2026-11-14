@@ -1,10 +1,24 @@
-# Week 5 — LED fade with software PWM
+# 8051 Timer-Based LED Brightness Control
 
-## Objective and platform
-Fade an AT89S52 LED using a Timer 0 interrupt and software PWM. The supplied category notes specify P2.0 for the PWM LED and an 11.0592 MHz crystal.
+## Aim
+Demonstrate software PWM by gradually changing an LED's duty cycle with an AT89S52 timer interrupt.
 
-## Implementation
-Timer 0 mode 1 reloads FFA4h for approximately 100 microseconds. A 20-step PWM frame gives about 500 Hz; the foreground ramp changes duty from 0 to 100% and back. The timer ISR owns the PWM counter/output.
+## Hardware and Components
+- AT89S52 microcontroller board with 11.0592 MHz clock
+- LED and current-limiting resistor
 
-## Build and status
-Open `TASK5B.1.uvproj` in Keil or run `sdcc -mmcs51 --model-small --out-fmt-ihx TASK5B.1.c -o Objects/TASK5B.1.ihx`. SDCC 4.6.0 produced the included genuine HEX. Brightness and PWM frequency still need oscilloscope/LED hardware verification.
+## Concepts Used
+- Timer 0 interrupt
+- Software pulse-width modulation
+- Duty-cycle ramping
+
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| LED | P2.0 | Software-PWM output |
+
+## Working / Implementation
+Timer 0 generates approximately 100 μs ticks. The interrupt advances a 20-step PWM frame and sets the output while the frame position is below the selected duty value. The main loop ramps the duty value up and down.
+
+## Expected Output
+The LED connected to P2.0 gradually brightens and dims.

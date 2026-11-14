@@ -1,10 +1,26 @@
-# Week 8 — Short/long press LED control
+# STM32 Short- and Long-Press LED Modes
 
-## Objective and platform
-STM32F103C6 GPIO task. A short press toggles the LED; a press held for at least one second enters continuous blinking; a later short press exits blink mode.
+## Aim
+Use short and long presses on the STM32F103C6 to control an LED in steady and blinking modes.
 
-## Wiring and implementation
-Reuses verified task8A wiring: active-low PA0 button and active-high PA9 LED. The input is debounced for 25 ms, and blink timing uses HAL ticks without blocking the press-duration state machine.
+## Hardware and Components
+- STM32F103C6 development board
+- Push-button input
+- LED with suitable current limiting
 
-## Build and status
-Open `MDK-ARM/TASK8C.uvprojx` in Keil MDK. Drivers links to the existing task8A project vendor tree. ARM GCC build passed. ELF and Intel HEX are in `Build-GCC/`; physical button timing remains unverified. Rebuild with `python3 build_stm32_gcc.py STM32/CAT8/TASK8C`.
+## Concepts Used
+- GPIO input and output
+- Debouncing and press-duration measurement
+- Non-blocking state control using the HAL timebase
+
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| Push-button input | PA0 | Active-low input with pull-up |
+| LED | PA9 | Active-high output |
+
+## Working / Implementation
+A debounced press starts duration measurement. Reaching one second enters blinking mode, with the output toggled every 250 ms. A short press toggles the steady LED state; a short press while blinking stops the blink mode.
+
+## Expected Output
+Short presses toggle the LED. Holding the button for at least one second starts blinking; a later short press stops the periodic toggling.

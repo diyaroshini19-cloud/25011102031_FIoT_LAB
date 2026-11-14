@@ -1,12 +1,31 @@
-# CAT10 / TASK10C — Wi-Fi station, debug and TCP server setup
+# STM32 ESP8266 Wi-Fi and TCP Server Setup
 
-## Original project reused
-Uses the STM32F103C8 CubeMX/Keil project and Wi-Fi command sequence from `PROJECT_DOCUMENTATION/Reference/EX3/uarthttp/`. CAT10's documented server setup is added after association and IP/status reporting. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. The original reference project remains unchanged.
+## Aim
+Configure the ESP8266 as a Wi-Fi station and start a TCP server through AT commands sent by an STM32F103C8.
 
-## Firmware sequence
-The task checks `AT`, selects station mode (`AT+CWMODE=1`), enables DHCP, optionally joins the configured AP with `AT+CWJAP`, reports `AT+CIFSR`/`AT+CIPSTATUS`, enables multi-connection mode (`AT+CIPMUX=1`) and starts a TCP server on port 80 (`AT+CIPSERVER=1,80`). HTTP request parsing and response generation are in CAT11 tasks per the corrected mapping.
+## Hardware and Components
+- STM32F103C8 development board
+- Wemos D1 Mini/ESP8266 module
+- Wi-Fi access point
+- PC serial terminal for status output
 
-Set `WIFI_SSID` and `WIFI_PASSWORD` in `Core/Src/main.c` locally; placeholders are provided. USART1 PA9/PA10 connects to the Wemos; USART2 PA2/PA3 is the PC debug terminal.
+## Concepts Used
+- UART AT-command control
+- Wi-Fi station mode and DHCP
+- Network status reporting
+- TCP server configuration
 
-## Verification limits
-No network association, server connection or new build is claimed. Confirm local credentials, ESP8266 firmware/baud, and board wiring before use.
+## Pin Connections / Wiring
+| Link | STM32 connection | Purpose |
+|---|---|---|
+| ESP8266 TX/RX | PA10 / PA9 (USART1 RX/TX) | AT command and response channel |
+| PC terminal TX/RX | PA3 / PA2 (USART2 RX/TX) | Debug reporting |
+| Ground | Common GND | Shared signal reference |
+
+The UART links use 115200 baud, 8-N-1. Wi-Fi credentials are configured locally in the source.
+
+## Working / Implementation
+The firmware checks the modem, selects station mode, enables DHCP, and joins the configured access point. It reports the module's IP and connection status, enables multiple TCP connections, and starts a server on port 80. HTTP request processing is covered by the following CAT11 tasks.
+
+## Expected Output
+The debug terminal displays AT responses and reports the ESP8266 network status after server setup.

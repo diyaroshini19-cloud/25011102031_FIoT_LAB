@@ -1,10 +1,29 @@
-# CAT10 / TASK10A — STM32–Wemos UART bridge
+# STM32–ESP8266 UART Communication
 
-## Original project reused
-`PROJECT_DOCUMENTATION/Reference/EX3/wifi/` supplies the STM32F103C8 CubeMX/Keil project, USART1/USART2 setup and full-duplex terminal bridge. Its original project files remain preserved there; the task folder contains the integrated project configuration and source. `Drivers/` links to that project's matching STM32F1 HAL and CMSIS files.
+## Aim
+Establish a serial bridge between an STM32F103C8, a Wemos D1 Mini/ESP8266, and a PC terminal.
 
-## Behavior and wiring
-USART1 (PA9 TX, PA10 RX) connects to the Wemos D1 Mini/ESP8266. USART2 (PA2 TX, PA3 RX) connects to the PC serial terminal. The firmware forwards terminal bytes to the Wemos and Wemos replies back to the terminal. Use 115200 8-N-1, cross TX/RX, share ground, and use 3.3 V UART logic.
+## Hardware and Components
+- STM32F103C8 development board
+- Wemos D1 Mini with ESP8266
+- USB-to-TTL or PC serial terminal
 
-## Verification limits
-No new build or physical UART/Wemos test is claimed. Match the terminal/modem baud and verify board pin access before flashing.
+## Concepts Used
+- UART communication
+- Full-duplex byte forwarding
+- ESP8266 serial interface
+
+## Pin Connections / Wiring
+| Link | STM32 connection | Purpose |
+|---|---|---|
+| ESP8266 TX/RX | PA10 / PA9 (USART1 RX/TX) | Modem serial link |
+| PC adapter TX/RX | PA3 / PA2 (USART2 RX/TX) | Debug terminal link |
+| Ground | Common GND | Shared signal reference |
+
+Cross TX to RX, use 3.3 V UART logic, and configure both links for 115200 baud, 8-N-1 as set in the project.
+
+## Working / Implementation
+The firmware forwards bytes from the PC terminal to USART1 and sends bytes received from the ESP8266 back to the terminal. This exposes the modem's serial exchange for interactive use.
+
+## Expected Output
+Terminal input is transmitted to the ESP8266; modem replies appear on the terminal.

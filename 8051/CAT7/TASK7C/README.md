@@ -1,30 +1,31 @@
-# CAT7 Task 7C — 4×4 keypad controls a 16×2 LCD character
+# 8051 Keypad-Controlled LCD Character
 
-## Requirements from the CAT7 manual
+## Aim
+Use a 4×4 keypad to move a character around a 16×2 LCD using the direction keys 2, 8, 4, and 6.
 
-Use the existing 4-bit HD44780 LCD interface and a 4×4 keypad. Move a displayed character with 2=up, 8=down, 4=left, and 6=right. The supplied manual and CAT7 circuit document the LCD but do not specify keypad row/column wiring or a connector pinout.
+## Hardware and Components
+- AT89S52 microcontroller board
+- 16×2 HD44780-compatible LCD
+- 4×4 matrix keypad
 
-## Implementation and wiring defaults
+## Concepts Used
+- LCD four-bit interface and cursor addressing
+- Matrix keypad scanning
+- Button debounce and release detection
+- Bounded row/column navigation
 
-The LCD driver and initialization are reused from the existing TASK7A/TASK7B implementation: RS=P3.3, EN=P3.2, D4–D7=P3.4–P3.7, RW grounded. The display is initialized for 4-bit, two-line, 5×8 mode.
+## Pin Connections / Wiring
+| Component signal | Microcontroller pin | Purpose |
+|---|---|---|
+| LCD D4–D7 | P3.4–P3.7 | Four-bit data bus |
+| LCD EN / RS | P3.2 / P3.3 | Enable and command/data control |
+| Keypad rows | P1.0–P1.3 | Active-low row selection |
+| Keypad columns | P1.4–P1.7 | Active-low key detection |
 
-This implementation assigns keypad rows to P1.0–P1.3 and columns to P1.4–P1.7, active low, with the standard matrix:
+The keypad matrix pin assignment is the source implementation's default; the supplied manual does not provide a keypad connector map. LCD RW is held low for write-only operation.
 
-```text
-1  2  3  A
-4  5  6  B
-7  8  9  C
-*  0  #  D
-```
+## Working / Implementation
+The LCD is initialized in four-bit, two-line mode and displays `X`. The scanner selects each keypad row and checks the column inputs. After a stable press, 2 moves up, 8 down, 4 left, and 6 right; movement stays within the display area.
 
-The character starts at row 0, column 0; movement is bounded to the 2×16 display. A 20 ms debounce and release wait prevent repeated movement from one press. The keypad mapping is an implementation default because the CAT7 manual does not define it. Rewire or adjust `keypad_scan()` if the lab board uses different row/column pins.
-
-## Project files and build
-
-- `TASK7C.c` — LCD driver, matrix scan, debounce and cursor movement.
-- `STARTUP.A51` — startup copied from the existing CAT7 Task 7B project.
-- `TASK7C.uvproj` — Keil uVision project for AT89S52, 11.0592 MHz; output directory is `Objects/`.
-
-Open `TASK7C.uvproj` in Keil uVision, select the TASK7C target, then use **Project → Build Target**. Keil writes the HEX file to `Objects/TASK7C.hex`. Verify keypad polarity and wiring on the target board before running the exercise.
-
-The `Objects/TASK7C.hex` currently included was compiled from this source using SDCC. The Keil project has not been built with Keil in this environment.
+## Expected Output
+The character `X` moves one LCD position per accepted direction-key press and cannot move beyond the screen edges.

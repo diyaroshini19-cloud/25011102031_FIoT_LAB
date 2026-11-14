@@ -1,25 +1,28 @@
-# TASK9A — STM32 UART command-based LED control
+# STM32 UART Serial Echo
 
-## EXP
-CAT9 / TASK9A
+## Aim
+Initialize a USART peripheral on the STM32F103C8 and return characters received from a serial terminal.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- STM32F103C8 development board
+- USB-to-TTL serial interface or compatible terminal
 
-## NAME OF EXP
-STM32 UART command-based LED control
+## Concepts Used
+- UART receive and transmit
+- Character echo
+- Serial terminal interaction
 
-## HARDWARE SETUP / PLATFORM
-STM32F103C8 project. Archive included a Keil HEX; verify serial configuration and board wiring.
+## Pin Connections / Wiring
+| Serial interface signal | STM32 pin | Purpose |
+|---|---|---|
+| Adapter TX | PA3 / USART2_RX | Sends characters to the MCU |
+| Adapter RX | PA2 / USART2_TX | Receives echoed characters |
+| Ground | GND | Shared signal reference |
 
-## TASK NO
-TASK9A
+The configured USART2 link uses 115200 baud, 8 data bits, no parity, and one stop bit.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
+## Working / Implementation
+The firmware initializes USART2 and waits for a character. It sends the received character back; carriage return is followed by a line break. Other characters are echoed unchanged.
 
-## Core Logic / Pseudocode / Code Base
-CubeMX project extracted from the repository archive; source and build artifacts retained.
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+Characters typed in the terminal appear again in the terminal, with a new line after carriage return.

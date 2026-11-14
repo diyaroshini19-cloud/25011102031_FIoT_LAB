@@ -1,25 +1,29 @@
-# TASK13 — BME280 sensor interfacing over I2C
+# STM32F401RE BME280 Sensor Acquisition
 
-## EXP
-CAT13 / TASK13
+## Aim
+Interface a BME280 environmental sensor to the STM32F401RE over I²C and retrieve compensated temperature, pressure, and humidity data.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- STM32F401RE development board
+- BME280 sensor module with I²C interface
 
-## NAME OF EXP
-BME280 sensor interfacing over I2C
+## Concepts Used
+- I²C master communication
+- Bosch BME280 API and compensation data
+- Periodic environmental measurement
 
-## HARDWARE SETUP / PLATFORM
-STM32F401RE; reused source files retain their original implementation.
+## Pin Connections / Wiring
+| BME280 signal | STM32 pin | Purpose |
+|---|---|---|
+| SCL | PB6 / I2C1_SCL | I²C clock |
+| SDA | PB7 / I2C1_SDA | I²C data |
+| Sensor address | 0x76 primary address | Selected in the source |
+| Power and ground | Board-compatible supply and GND | Sensor power/reference |
 
-## TASK NO
-TASK13
+Use the supply voltage supported by the specific sensor module and provide the I²C pull-ups required by that module.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
+## Working / Implementation
+The Bosch driver is configured with STM32 HAL I²C read/write callbacks. The firmware initializes the sensor, selects 1× oversampling for temperature, pressure, and humidity, disables the filter, enters normal mode, and reads compensated values once per second. Pressure is converted from pascals to hectopascals.
 
-## Core Logic / Pseudocode / Code Base
-Reused project, Core, Drivers, startup and CubeMX configuration from STM32/CAT13.
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+The program updates its temperature, pressure, and relative-humidity variables from successive BME280 measurements. This task's source does not send those values to an external display or network endpoint.

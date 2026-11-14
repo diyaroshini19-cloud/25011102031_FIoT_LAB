@@ -1,12 +1,31 @@
-# CAT11 / TASK11A — HTTP request reception and response
+# ESP8266 HTTP Server and Request Handling
 
-## Original project reused
-Implements original CAT10 Task 10D under the corrected destination `STM32/CAT11/TASK11A`. It is based on the complete STM32F103C8 project in `PROJECT_DOCUMENTATION/Reference/EX3/uarttt/`, including the `+IPD` frame parser, HTTP request accumulation, response construction, `CIPSEND` prompt/length handling and connection close. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. The original project and build artifacts remain preserved there.
+## Aim
+Receive HTTP requests delivered by an ESP8266 TCP server and return an HTTP response from the STM32F103C8.
 
-## Behavior
-The server configures station mode, DHCP, optional AP association when credentials are configured, IP/status reporting, multi-connection mode and TCP port 80. Incoming ESP8266 `+IPD` data and parsed HTTP requests are reported on USART2. A GET request receives a static HTTP/1.1 200 response.
+## Hardware and Components
+- STM32F103C8 development board
+- Wemos D1 Mini/ESP8266 module
+- Wi-Fi access point and HTTP client
+- PC serial terminal for debug output
 
-Set `WIFI_SSID` and `WIFI_PASSWORD` locally in `Core/Src/main.c`. USART1 PA9/PA10 connects to the ESP8266; USART2 PA2/PA3 provides the debug terminal. The Node-RED client exercise is in TASK11B.
+## Concepts Used
+- UART AT-command interface
+- TCP server on port 80
+- ESP8266 `+IPD` data framing
+- HTTP request parsing and response construction
 
-## Verification limits
-No build or live HTTP response is claimed. Confirm the local network, credentials, AT firmware/baud and UART wiring on hardware.
+## Pin Connections / Wiring
+| Link | STM32 connection | Purpose |
+|---|---|---|
+| ESP8266 TX/RX | PA10 / PA9 (USART1 RX/TX) | Network data and AT commands |
+| PC terminal TX/RX | PA3 / PA2 (USART2 RX/TX) | Request/debug reporting |
+| Ground | Common GND | Shared signal reference |
+
+Configure the ESP8266 for the same Wi-Fi network as the HTTP client and provide local network credentials in the firmware.
+
+## Working / Implementation
+The firmware sets station mode, joins the configured network, reports its address, and starts a TCP server on port 80. It collects incoming UART data, locates and parses `+IPD` frames, recognizes HTTP requests, sends an HTTP/1.1 200 response with a static page, and closes the client connection.
+
+## Expected Output
+A browser or HTTP client requesting the ESP8266 server receives the static HTTP response. The serial debug channel shows the received network data.

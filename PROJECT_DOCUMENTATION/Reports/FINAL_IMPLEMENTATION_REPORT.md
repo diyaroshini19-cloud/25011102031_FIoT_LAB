@@ -49,3 +49,13 @@ Implementation and validation details are recorded above. Repository cleanup and
 - The evaluator passed after the move: 28/28 tasks, 198/198 required files and 60/60 XML/source-reference checks.
 - The relocated GCC build script was verified in an isolated temporary workspace for CAT8B, CAT8C and CAT12A–12C. Existing repository compiler outputs were preserved.
 - Pending: independently compile CAT10/CAT11/CAT14 where suitable toolchains are available, perform physical board validation, and review local Wi-Fi/MQTT settings before hardware runs. No hardware test is claimed.
+
+
+## CAT15 and task README update — 2026-11-14
+
+- Added `STM32/CAT15/TASK15` from the supplied `project final.zip`. The integrated files include its `.ioc`, `.mxproject`, Core headers and sources, Keil project, STM32F401RE startup assembly, and supporting Keil RTE/debug configuration files. CAT15 reuses the byte-identical STM32F4 CMSIS/HAL tree already stored under CAT14 through a relative `Drivers/` link.
+- The archived Keil project referenced a Bosch BME280 source file outside the archive. Its project reference now resolves to the included `Core/Src/bme280.c`. Wi-Fi credentials embedded in the archive source were replaced by local configuration placeholders. No archive build outputs or IDE user-state files were copied.
+- Rewrote all 30 tracked individual task README paths from CAT2 through CAT15, including both existing CAT8 TASK8A case variants and the new CAT15 TASK15 README. They now describe each experiment's aim, hardware, concepts, confirmed connections, implementation, and expected behavior. Compiler/build instructions, hardware-testing status, and Codex/repository history were removed from task READMEs. Category overviews and task source/configuration were retained.
+- Updated `MASTER_TASK_MAPPING.md` with the CAT15 destination and noted that the ZIP contains the project evidence but no separate CAT15 lab manual.
+- Official evaluator validation and independent published-branch verification are recorded in `OFFICIAL_EVALUATION_REPORT.md` after completion.
+- No fresh CAT15 compile or physical hardware test is claimed in this update.

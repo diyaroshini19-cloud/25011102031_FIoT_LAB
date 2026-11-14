@@ -1,10 +1,26 @@
-# Week 12 — Short and long user-button presses
+# STM32F401RE Short- and Long-Press LED Control
 
-## Objective and hardware
-NUCLEO-F401RE B1 on PC13 (active high) controls LD2 on PA5 (active high), following ST's [UM1724 user manual](https://www.st.com/resource/en/user_manual/dm00105823.pdf). A short press toggles the LED; a press held for at least one second enters continuous blinking; a later short press stops blinking.
+## Aim
+Distinguish short and long presses of the NUCLEO-F401RE user button to control LD2.
 
-## Implementation
-The main loop debounces the initial press, measures duration with HAL_GetTick, treats the long-press threshold once per hold, and updates blink timing without a blocking delay.
+## Hardware and Components
+- NUCLEO-F401RE development board
+- B1 user button
+- Onboard green LD2 LED
 
-## Build and status
-Open `MDK-ARM/TASK12C.uvprojx` in Keil MDK. The F401RE HAL/CMSIS tree is shared from CAT13 TASK13. ARM GCC build passed. ELF and Intel HEX are in `Build-GCC/`; short/long press timing still needs NUCLEO-F401RE testing. Rebuild with `python3 build_stm32_gcc.py STM32/CAT12/TASK12C`.
+## Concepts Used
+- GPIO input polling
+- Debounce and press-duration measurement
+- Time-based operating modes
+
+## Pin Connections / Wiring
+| Component | STM32 pin | Purpose |
+|---|---|---|
+| B1 user button | PC13 | Active-high press input in the project |
+| Onboard LD2 | PA5 | Active-high LED output |
+
+## Working / Implementation
+The program debounces a press and measures its duration with the HAL timebase. A press reaching one second starts periodic blinking. A shorter press toggles the steady LED state; a later short press exits blink mode.
+
+## Expected Output
+Short presses toggle LD2. Holding B1 for at least one second starts blinking, and a later short press stops the blinking mode.

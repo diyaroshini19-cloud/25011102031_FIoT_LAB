@@ -1,10 +1,26 @@
-# Week 12 — User switch with remembered LED state
+# STM32F401RE Button-Controlled LED State
 
-## Objective and hardware
-Use the NUCLEO-F401RE B1 user button to toggle and retain LD2 state after button release. ST's [UM1724 user manual](https://www.st.com/resource/en/user_manual/dm00105823.pdf) identifies B1 on PC13 and LD2 on PA5.
+## Aim
+Use the NUCLEO-F401RE user button to toggle and retain the onboard LED state.
 
-## Implementation
-PC13 is sampled as an active-high input with no internal pull because the board provides an external pull-up. A debounced press edge toggles PA5 once, then waits for release.
+## Hardware and Components
+- NUCLEO-F401RE development board
+- B1 user button
+- Onboard green LD2 LED
 
-## Build and status
-Open `MDK-ARM/TASK12B.uvprojx` in Keil MDK. The F401RE HAL/CMSIS tree is linked from CAT13 TASK13. ARM GCC build passed. ELF and Intel HEX are in `Build-GCC/`; the button behavior still needs NUCLEO-F401RE testing. Rebuild with `python3 build_stm32_gcc.py STM32/CAT12/TASK12B`.
+## Concepts Used
+- GPIO input polling
+- Press-edge detection and debounce
+- GPIO output state retention
+
+## Pin Connections / Wiring
+| Component | STM32 pin | Purpose |
+|---|---|---|
+| B1 user button | PC13 | Active-high press input in the project |
+| Onboard LD2 | PA5 | Active-high LED output |
+
+## Working / Implementation
+The firmware samples PC13 and detects a transition into the pressed state. After a 25 ms debounce interval it toggles PA5 once, then waits for release before accepting another press.
+
+## Expected Output
+Each press changes LD2 to the opposite state; the selected state remains after the button is released.

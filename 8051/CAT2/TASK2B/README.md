@@ -1,25 +1,23 @@
-# TASK2B — 8051 LED blink and software delay
+# 8051 LED Blink with GPIO
 
-## EXP
-CAT2 / TASK2B
+## Aim
+Use an AT89S52 digital output to switch an LED on and off with a software delay.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- AT89S52 microcontroller board
+- LED with a current-limiting resistor
 
-## NAME OF EXP
-8051 LED blink and software delay
+## Concepts Used
+- GPIO output control
+- Software delay loops
 
-## HARDWARE SETUP / PLATFORM
-Keil C51 / AT89S52. A task-local Keil project and startup source are provided; genuine HEX output still requires Keil C51.
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| LED | P1.0 | Alternating digital output |
 
-## TASK NO
-TASK2B
+## Working / Implementation
+The program configures the LED output through the 8051 port bit. It drives the pin high, waits in a nested delay loop, drives it low, and repeats.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
-
-## Core Logic / Pseudocode / Code Base
-Source reused from 8051/CAT2/cat2.c
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+The LED connected to P1.0 repeatedly turns on and off.

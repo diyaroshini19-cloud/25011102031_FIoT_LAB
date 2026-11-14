@@ -1,14 +1,30 @@
-# CAT11 / TASK11B — Node-RED HTTP client
+# Node-RED HTTP Client for the ESP8266 Server
 
-## Original project reused
-Implements original CAT10 Task 10E at the corrected path `STM32/CAT11/TASK11B`. It uses the same STM32F103C8 server project and `+IPD`/HTTP response firmware from `PROJECT_DOCUMENTATION/Reference/EX3/uarttt/`, preserving a standalone task project copy. `Drivers/` links to that original project's matching STM32F1 HAL and CMSIS files.
+## Aim
+Use Node-RED as a second HTTP client to request a page from the STM32/ESP8266 server and view its response.
 
-## Node-RED client procedure
-1. Start the STM32 HTTP server and connect ESP8266 and Node-RED host to the same Wi-Fi LAN.
-2. In Node-RED wire **Inject → HTTP Request → Debug**. Set the request method to GET and URL to `http://<ESP8266_IP>/`.
-3. Deploy, trigger Inject, and inspect the response body in Debug.
+## Hardware and Components
+- STM32F103C8 development board
+- Wemos D1 Mini/ESP8266 module
+- Wi-Fi access point
+- Computer running Node-RED
 
-The board sends an HTTP 200 response with a static HTML page. Set `WIFI_SSID`/`WIFI_PASSWORD` locally in the MCU source. USART1 PA9/PA10 is the Wemos link; USART2 PA2/PA3 is debug.
+## Concepts Used
+- HTTP client request
+- TCP/IP over Wi-Fi
+- HTTP response inspection in Node-RED
+- ESP8266 `+IPD` server-side reception
 
-## Verification limits
-The Node-RED flow was not run against a live broker/network or board; no new build or hardware result is claimed.
+## Pin Connections / Wiring
+| Link | STM32 connection | Purpose |
+|---|---|---|
+| ESP8266 TX/RX | PA10 / PA9 (USART1 RX/TX) | Server network interface |
+| Computer network | Wi-Fi LAN | Node-RED client connection |
+
+The STM32 and Node-RED host must be able to reach the same ESP8266 server address. UART connections use 3.3 V logic and common ground.
+
+## Working / Implementation
+The MCU configures the ESP8266 TCP server on port 80 and handles incoming `+IPD` data with the HTTP request/response logic. In Node-RED, connect an Inject node to an HTTP Request node configured for GET at `http://<ESP8266_IP>/`, then connect the response to a Debug node.
+
+## Expected Output
+Triggering Inject causes Node-RED to display the HTTP response returned by the STM32/ESP8266 server.

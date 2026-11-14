@@ -1,23 +1,29 @@
-# CAT10 / TASK10B — ESP8266 AT command interface
+# STM32 ESP8266 AT Command Investigation
 
-## Original project reused
-Based on `PROJECT_DOCUMENTATION/Reference/EX3/uartwifi/` (STM32F103C8 CubeMX/Keil configuration and UART receive-to-idle pattern). The task source adds the CAT10 command investigation sequence and retains an interactive terminal bridge. `Drivers/` links to this original project's matching STM32F1 HAL and CMSIS files. Original reference files are unchanged.
+## Aim
+Use the STM32F103C8 UART interface to query an ESP8266 AT-command firmware and inspect its Wi-Fi information.
 
-## Commands and outputs
-At startup, USART1 sends `AT`, `AT+GMR`, `AT+CWMODE?`, `AT+CWLAP`, and `AT+CIFSR`; responses are shown on the USART2 debug terminal. After the initial sequence, type additional commands in the terminal.
+## Hardware and Components
+- STM32F103C8 development board
+- Wemos D1 Mini/ESP8266 module
+- PC serial terminal
 
-| Command | Lab use |
-|---|---|
-| `AT` | Check modem response |
-| `AT+GMR` | Read firmware version |
-| `AT+CWMODE=1` | Set station mode |
-| `AT+CWLAP` | Scan visible access points |
-| `AT+CWJAP="<ssid>","<password>"` | Join a configured AP (run locally; credentials are not embedded) |
-| `AT+CIFSR` | Report local IP/interface information |
-| `AT+CIPSTART="TCP","<host>",<port>` | Start a TCP client connection |
-| `AT+CIPSEND=<length>` | Begin sending application data after the modem prompt |
+## Concepts Used
+- UART request and response
+- ESP8266 AT commands
+- Wi-Fi mode, access-point scan, and interface information
 
-USART1 PA9/PA10 connects to the ESP8266; USART2 PA2/PA3 connects to the PC terminal. Configure both ends for 115200 8-N-1, cross TX/RX and share ground.
+## Pin Connections / Wiring
+| Link | STM32 connection | Purpose |
+|---|---|---|
+| ESP8266 TX/RX | PA10 / PA9 (USART1 RX/TX) | AT command channel |
+| PC terminal TX/RX | PA3 / PA2 (USART2 RX/TX) | Command input and debug output |
+| Ground | Common GND | Shared signal reference |
 
-## Verification limits
-No new build or modem response test is claimed. Scan duration and response length depend on the local RF environment and ESP8266 AT firmware.
+Both serial links are configured for 115200 baud, 8-N-1. Cross TX/RX and use 3.3 V UART logic.
+
+## Working / Implementation
+At startup the firmware sends `AT`, `AT+GMR`, `AT+CWMODE?`, `AT+CWLAP`, and `AT+CIFSR` to inspect firmware version, Wi-Fi mode, visible access points, and interface information. Responses are printed to the terminal. After the initial sequence, terminal bytes are forwarded to and from the module for further AT commands.
+
+## Expected Output
+The terminal shows ESP8266 responses to the startup queries and relays later interactive command responses.

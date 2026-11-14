@@ -1,25 +1,27 @@
-# TASK3A — 8051 four LED patterns and button mode selection
+# 8051 Switch-Controlled LED Patterns
 
-## EXP
-CAT3 / TASK3A
+## Aim
+Use a push-button input to select and observe four LED patterns on an AT89S52.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- AT89S52 microcontroller board
+- Four LEDs with current-limiting resistors
+- Push-button switch
 
-## NAME OF EXP
-8051 four LED patterns and button mode selection
+## Concepts Used
+- GPIO input polling
+- Switch debounce by software delay
+- LED sequencing and binary patterns
 
-## HARDWARE SETUP / PLATFORM
-Keil C51 / AT89S52. A task-local Keil project and startup source are provided; genuine HEX output still requires Keil C51.
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| LEDs 0–3 | P1.1–P1.4 | Four pattern outputs |
+| Button row signal | P2.3 | Selected low during scan |
+| Button column signal | P2.7 | Press detection input |
 
-## TASK NO
-TASK3A
+## Working / Implementation
+The program polls the switch and advances a four-state mode when a press is detected. The modes run a moving LED, count a four-bit value from 0 to 15, alternate two complementary patterns, and flash all four LEDs together.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
-
-## Core Logic / Pseudocode / Code Base
-Source reused from 8051/CAT3/cat3.c
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+Each accepted button press selects the next pattern. The four LEDs visibly show the selected sequence or value.

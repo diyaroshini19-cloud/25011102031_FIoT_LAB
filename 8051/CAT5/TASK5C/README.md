@@ -1,21 +1,31 @@
-# CAT5 Task 5C — Stepper motor speed and direction
+# 8051 Stepper Motor Speed and Direction
 
-## Requirements from the CAT5 manual
+## Aim
+Control a four-phase stepper motor from an AT89S52, with selectable step interval and rotation direction.
 
-AT89S52 at 11.0592 MHz. Drive a four-phase stepper using the sequence `1000 → 0100 → 0010 → 0001`; provide 100 ms/step (slow), 50 ms/step (medium), and 10 ms/step (fast). The manual does not provide a motor-driver circuit, GPIO assignment, or button/control interface.
+## Hardware and Components
+- AT89S52 microcontroller board with 11.0592 MHz clock
+- Four-phase stepper motor
+- ULN2003 or suitable transistor driver and motor supply
+- Two push-buttons
 
-## Implemented behavior and wiring defaults
+## Concepts Used
+- Timer 0 interrupt timebase
+- Four-phase stepping sequence
+- Button polling and debounce
+- Speed and direction control
 
-The firmware uses a Timer 0 mode 1 interrupt reloaded with `TH0=0xFC`, `TL0=0x66` for approximately 1.0004 ms ticks. Foreground logic advances the motor without busy-wait timing loops. An active-low button on P3.0 cycles 100 → 50 → 10 ms/step; an active-low button on P3.1 reverses direction. Both are debounced for 20 ms.
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| Driver phase inputs | P1.3–P1.0 | Sequence `1000, 0100, 0010, 0001` |
+| Speed button | P3.0 | Active-low speed selection |
+| Direction button | P3.1 | Active-low direction toggle |
 
-For this implementation, connect P1.3, P1.2, P1.1, P1.0 to the four phase inputs in that sequence, through a ULN2003 or suitable transistor driver. The generated low-nibble pattern is `1000, 0100, 0010, 0001`. Connect each button between its P3 input and ground. Power the motor from an appropriate external supply and share ground with the 8051. Never connect motor coils directly to MCU pins. These pin/control choices are implementation defaults, not pin assignments stated by the manual; adjust the source if your board wiring differs.
+Connect motor coils through the driver, use a suitable motor supply, and share ground with the controller. Do not connect motor coils directly to MCU pins.
 
-## Project files and build
+## Working / Implementation
+Timer 0 produces approximately 1 ms ticks. The foreground code schedules the next phase according to the selected 100, 50, or 10 ms step period. A debounced press on P3.0 advances the speed setting; a press on P3.1 reverses the phase order.
 
-- `TASK5C.c` — Timer 0 step scheduler, phase sequencing and button controls.
-- `STARTUP.A51` — startup copied from the existing CAT5 Task 5A project.
-- `TASK5C.uvproj` — Keil uVision project for AT89S52, 11.0592 MHz; output directory is `Objects/`.
-
-Open `TASK5C.uvproj` in Keil uVision, select the TASK5C target, then use **Project → Build Target**. Keil writes the HEX file to `Objects/TASK5C.hex`. Hardware behavior still needs to be checked with the correctly wired driver and motor.
-
-The `Objects/TASK5C.hex` currently included was compiled from this source using SDCC. The Keil project has not been built with Keil in this environment.
+## Expected Output
+The motor advances through the four-phase sequence. Button presses change its step rate or reverse its direction.

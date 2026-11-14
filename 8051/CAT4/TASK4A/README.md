@@ -1,25 +1,32 @@
-# TASK4A — 8051 keypad, seven-segment display and LED control
+# 8051 Keypad and Seven-Segment Display
 
-## EXP
-CAT4 / TASK4A
+## Aim
+Read a numeric key from a matrix keypad, display the selected digit, and demonstrate LED patterns on the AT89S52.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- AT89S52 microcontroller board
+- Numeric matrix keypad
+- Seven-segment display and suitable current-limiting/interface circuitry
+- Four LEDs with current-limiting resistors
 
-## NAME OF EXP
-8051 keypad, seven-segment display and LED control
+## Concepts Used
+- Matrix keypad scanning and polling
+- Seven-segment digit encoding
+- GPIO control
+- LED patterns
 
-## HARDWARE SETUP / PLATFORM
-Keil C51 / AT89S52. A task-local Keil project and startup source are provided; genuine HEX output still requires Keil C51.
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| Seven-segment signals | P0.0–P0.7 | Segment pattern output |
+| Four LEDs | P1.0–P1.3 | Running, binary, alternating, and blink patterns |
+| Keypad row signals | P2.5–P2.7 | Three scanned rows |
+| Keypad column signals | P2.0–P2.3 | Four sensed columns; P2.4 is unused by the scan |
 
-## TASK NO
-TASK4A
+The source scans a three-row by four-column matrix on Port 2; the supplied task materials do not establish a separate connector pinout. Port 0 requires the display interface appropriate to the board.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
+## Working / Implementation
+The firmware scans keypad lines and stores the detected numeric key. It sends the matching segment pattern to Port 0 and uses the key value to select one of the four LED behaviors. The source includes codes for digits 0–9.
 
-## Core Logic / Pseudocode / Code Base
-Source reused from 8051/CAT4/cat4.c
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+A detected numeric key is represented on the seven-segment display while the four LEDs show the associated pattern behavior.

@@ -1,25 +1,26 @@
-# TASK8A — STM32 GPIO input/output
+# STM32 GPIO Button-to-LED Control
 
-## EXP
-CAT8 / TASK8A
+## Aim
+Demonstrate a digital input controlling a digital output on the STM32F103C6.
 
-## DATE
-Not recorded in the task-specific source.
+## Hardware and Components
+- STM32F103C6 development board
+- Push-button input
+- LED with suitable current limiting
 
-## NAME OF EXP
-STM32 GPIO input/output
+## Concepts Used
+- GPIO input and output
+- Active-low input logic
+- Continuous polling
 
-## HARDWARE SETUP / PLATFORM
-STM32F103C6 project. Archive included a Keil HEX; verify board wiring before use.
+## Pin Connections / Wiring
+| Component | Microcontroller pin | Purpose |
+|---|---|---|
+| Push-button input | PA0 | Input with internal pull-up; pressed state is low |
+| LED | PA9 | Active-high output |
 
-## TASK NO
-TASK8A
+## Working / Implementation
+After HAL, clock, and GPIO initialization, the main loop reads PA0 continuously. It writes PA9 high while the input reads low and writes it low otherwise.
 
-## Circuit Diagram
-No task-specific circuit diagram has been identified. Existing category diagrams remain at the category level and have not been asserted to match this task.
-
-## Core Logic / Pseudocode / Code Base
-CubeMX project extracted from the repository archive; source and build artifacts retained.
-
-## INFERENCE
-No physical test result is claimed. This README records repository evidence only.
+## Expected Output
+The LED follows the button state: it is on while the active-low button is pressed and off when released.

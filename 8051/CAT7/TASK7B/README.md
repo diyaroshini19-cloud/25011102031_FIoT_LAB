@@ -1,10 +1,28 @@
-# Week 7 — Dynamic LCD display
+# 8051 LCD Cursor and Dynamic Value Display
 
-## Objective and hardware
-Update cursor locations and changing numeric values on an HD44780-compatible 16×2 display using an AT89S52 4-bit GPIO interface. Verified category wiring: RS=P3.3, EN=P3.2, D4–D7=P3.4–P3.7.
+## Aim
+Use LCD cursor positioning and repeated data updates to display a changing elapsed-seconds count.
 
-## Implementation
-Driver includes nibble transfers, 4-bit/2-line initialization, `lcd_goto`, `lcd_puts` and decimal number output. The main loop updates a seconds count on row 2.
+## Hardware and Components
+- AT89S52 microcontroller board
+- 16×2 HD44780-compatible LCD
 
-## Build and test
-Open `TASK7B.uvproj` in Keil or use `sdcc -mmcs51 --model-small --out-fmt-ihx TASK7B.c -o Objects/TASK7B.ihx`. The included HEX was built with SDCC 4.6.0. Display timing and contrast require hardware verification.
+## Concepts Used
+- LCD four-bit interface
+- Cursor addressing
+- Number-to-text conversion
+- Periodic display refresh
+
+## Pin Connections / Wiring
+| LCD signal | Microcontroller pin | Purpose |
+|---|---|---|
+| D4–D7 | P3.4–P3.7 | Four-bit data bus |
+| EN | P3.2 | Enable strobe |
+| RS | P3.3 | Command/data selection |
+| RW | Ground | Write-only operation |
+
+## Working / Implementation
+The program initializes the display and uses LCD command helpers to position the cursor. It writes a fixed label on each line, converts the seconds counter into decimal digits, updates the value field, and increments the count once per second.
+
+## Expected Output
+The LCD shows an elapsed-seconds label and a decimal counter that increases over time.
