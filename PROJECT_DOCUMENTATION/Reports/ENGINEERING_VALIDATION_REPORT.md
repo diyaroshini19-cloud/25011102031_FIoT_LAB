@@ -63,3 +63,11 @@ No physical hardware testing was performed. CAT5C's selected motor driver/contro
 - Rewrote all 30 tracked individual task README paths across CAT2–CAT15 to describe experiment requirements, hardware, confirmed pin connections, implementation and expected behavior. A content scan found no compiler/build, hardware-test-status, or Codex discussion in task READMEs.
 - The official evaluator's unchanged report-generation logic evaluated the current local tree as 27 projects passed, 0 failed, 190/190 file checks. This local pre-publication run uses the evaluator's existing discovery/check functions; the documented command requires a public GitHub URL and is run after publication. The evaluator discovers the CAT12, CAT13 and CAT14 category-root projects instead of nested task projects when root `.ioc` files are present, so this score is not a per-task validation of nested TASK12A–C, TASK13 or TASK14 folders.
 - CAT15 has not been freshly compiled. No CAT15 hardware, sensor, Wi-Fi, broker, or Node-RED operation is claimed. Configure local Wi-Fi values and validate the sensor address, wiring, MQTT connection and topic on the target system before use.
+
+## Published official evaluation and clone — 2026-11-14
+
+- Ran the official evaluator script against the published GitHub URL using the documented URL argument: **27 projects passed, 0 failed, 190/190 file checks passed; overall PASSED**. The official evaluator does not compile firmware or perform hardware tests.
+- A new isolated clone of `main` was clean at `c2987675f5ce7ca7b39e067ace3bc334b9f84b2f`, matching `origin/main` at verification time.
+- The official evaluator discovers project roots differently from the task-level layout when CAT12, CAT13, or CAT14 contains a root `.ioc`; these roots were checked instead of their nested task projects. See `OFFICIAL_EVALUATION_REPORT.md` for the exact paths and scope.
+- The fresh clone reported existing case-colliding CAT8 paths `TASK8A`/`task8A` on this case-insensitive filesystem. No paths were changed as part of this task.
+- CAT15 is structurally integrated but remains uncompiled and untested on hardware.

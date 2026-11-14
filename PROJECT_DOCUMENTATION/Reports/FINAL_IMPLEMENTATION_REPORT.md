@@ -57,5 +57,20 @@ Implementation and validation details are recorded above. Repository cleanup and
 - The archived Keil project referenced a Bosch BME280 source file outside the archive. Its project reference now resolves to the included `Core/Src/bme280.c`. Wi-Fi credentials embedded in the archive source were replaced by local configuration placeholders. No archive build outputs or IDE user-state files were copied.
 - Rewrote all 30 tracked individual task README paths from CAT2 through CAT15, including both existing CAT8 TASK8A case variants and the new CAT15 TASK15 README. They now describe each experiment's aim, hardware, concepts, confirmed connections, implementation, and expected behavior. Compiler/build instructions, hardware-testing status, and Codex/repository history were removed from task READMEs. Category overviews and task source/configuration were retained.
 - Updated `MASTER_TASK_MAPPING.md` with the CAT15 destination and noted that the ZIP contains the project evidence but no separate CAT15 lab manual.
-- Official evaluator validation and independent published-branch verification are recorded in `OFFICIAL_EVALUATION_REPORT.md` after completion.
-- No fresh CAT15 compile or physical hardware test is claimed in this update.
+- The official evaluator passed after publication: 27 projects passed, 0 failed, and 190/190 required file checks passed. The prior published result had 26/26 discovered projects and 182/182 checks but failed because CAT15 was missing. Full results and discovery limitations are in `OFFICIAL_EVALUATION_REPORT.md`.
+- A clean independent clone of published `main` matched commit `c2987675f5ce7ca7b39e067ace3bc334b9f84b2f`. The evaluator report Markdown/PDF and complete command output were saved outside the repository.
+- No fresh CAT15 compile or physical hardware test is claimed in this update. Remaining practical work is to configure Wi-Fi values, build CAT15 in Keil, and check the BME280/I²C, ESP8266/MQTT and Node-RED behavior on the target setup. Previously pending STM32 CAT10/CAT11/CAT14 builds and hardware checks remain as documented above.
+
+
+## Published verification and next steps — 2026-11-14
+
+**Commit:** `c2987675f5ce7ca7b39e067ace3bc334b9f84b2f` on `main`. The official evaluator's documented script completed with **27/27 discovered projects passed, 0 failed, 190/190 file checks passed**. The evaluator is structural only and does not compile projects or test devices. It stops descending into category folders containing a root project, so its score does not independently cover the nested CAT12A–C, CAT13/TASK13, or CAT14/TASK14 folders. The complete explanation is in `OFFICIAL_EVALUATION_REPORT.md`.
+
+**Compilation status:** CAT15 was not compiled. Keil/uVision or an independently configured equivalent build is still required. No hardware test was performed.
+
+**Next steps:**
+
+1. Set `WIFI_SSID` and `WIFI_PASSWORD` locally in `STM32/CAT15/TASK15/Core/Src/main.c`.
+2. Open `STM32/CAT15/TASK15/MDK-ARM/project final.uvprojx` in Keil, build it, and resolve any toolchain-specific project warnings or errors.
+3. Check BME280 supply, address and PB6/PB7 bus wiring; connect the ESP8266 to PA9/PA10 with common ground and compatible UART levels.
+4. On the target setup, confirm MQTT connection to `broker.emqx.io:1883` and messages on `stm32/diya`; separately complete remaining STM32 CAT10/CAT11/CAT14 compile and hardware work from the engineering report.
